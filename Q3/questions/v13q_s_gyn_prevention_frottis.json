@@ -1,0 +1,37 @@
+{
+  "choices": [
+    {
+      "code": "0",
+      "text": "Je n’en ai jamais fait"
+    },
+    {
+      "code": "1",
+      "text": "Il y a moins de 1 an"
+    },
+    {
+      "code": "2",
+      "text": "Entre 1 et 2 ans"
+    },
+    {
+      "code": "3",
+      "text": "Entre 2 et 3 ans"
+    },
+    {
+      "code": "4",
+      "text": "Entre 3 et 5 ans"
+    },
+    {
+      "code": "5",
+      "text": "Plus de 5 ans"
+    }
+  ],
+  "oid": "v13q_s_gyn_prevention_frottis",
+  "scale": null,
+  "scores": [
+  ],
+  "text": "Quand avez-vous fait un dépistage du cancer du col de l’utérus (frottis, recherche du virus HPV-HR) pour la dernière fois ?",
+  "title": "Quand avez-vous fait un dépistage du cancer du col de l’utérus (frottis, recherche du virus HPV-HR) pour la dernière fois ?",
+  "type": "SINGLE_CHOICE",
+  "durationUnits": null,
+  "displayChoices": null
+}

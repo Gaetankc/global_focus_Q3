@@ -42,7 +42,7 @@
   ],
   "text": "Au cours des 3 derniers mois, avez-vous souhaité être capable d’arrêter la consommation de ce médicament ?",
   "title": "Au cours des 3 derniers mois, avez-vous souhaité être capable d’arrêter la consommation de ce médicament ?",
-  "type": "MULTI_CHOICES",
+  "type": "SINGLE_CHOICE",
   "durationUnits": null,
   "displayChoices": null
 }

@@ -42,7 +42,7 @@
   ],
   "text": "Au cours des 3 derniers mois, est-ce que la consommation de ce médicament vous a préoccupé́ ?",
   "title": "Au cours des 3 derniers mois, est-ce que la consommation de ce médicament vous a préoccupé́ ?",
-  "type": "MULTI_CHOICES",
+  "type": "SINGLE_CHOICE",
   "durationUnits": null,
   "displayChoices": null
 }

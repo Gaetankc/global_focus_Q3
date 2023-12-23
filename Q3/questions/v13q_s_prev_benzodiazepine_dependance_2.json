@@ -42,7 +42,7 @@
   ],
   "text": "Au cours des 3 derniers mois, est-ce que l’idée de ne pas consommer du tout ce médicament vous a rendu inquiet ou anxieux ?",
   "title": "Au cours des 3 derniers mois, est-ce que l’idée de ne pas consommer du tout ce médicament vous a rendu inquiet ou anxieux ?",
-  "type": "MULTI_CHOICES",
+  "type": "SINGLE_CHOICE",
   "durationUnits": null,
   "displayChoices": null
 }

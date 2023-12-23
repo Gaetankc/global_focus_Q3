@@ -42,7 +42,7 @@
   ],
   "text": "Au cours des 3 derniers mois, jusqu’à quel point est ce que ce serait difficile pour vous d’arrêter de consommer ou de vivre sans ce médicament ?",
   "title": "Au cours des 3 derniers mois, jusqu’à quel point est ce que ce serait difficile pour vous d’arrêter de consommer ou de vivre sans ce médicament ?",
-  "type": "MULTI_CHOICES",
+  "type": "SINGLE_CHOICE",
   "durationUnits": null,
   "displayChoices": null
 }

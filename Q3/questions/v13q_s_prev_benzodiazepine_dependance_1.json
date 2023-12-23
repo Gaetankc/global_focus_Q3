@@ -42,7 +42,7 @@
   ],
   "text": "Au cours des 3 derniers mois, avez-vous pensé que vous aviez perdu le contrôle de votre consommation de médicament ?",
   "title": "Au cours des 3 derniers mois, avez-vous pensé que vous aviez perdu le contrôle de votre consommation de médicament ?",
-  "type": "MULTI_CHOICES",
+  "type": "SINGLE_CHOICE",
   "durationUnits": null,
   "displayChoices": null
 }

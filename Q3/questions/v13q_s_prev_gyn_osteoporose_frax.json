@@ -1,0 +1,34 @@
+{
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vous avez été ménopausée avant l’âge de 40 ans"
+    },
+    {
+      "code": "1",
+      "text": "Vous avez des antécédents personnels (c’est à dire vous-même) de fracture osseuse survenue sans traumaJsme violent et en dehors de tumeur osseuse"
+    },
+    {
+      "code": "2",
+      "text": "Un de vos parents a eu une fracture de hanche"
+    },
+    {
+      "code": "3",
+      "text": "Vous prenez ou avez pris de la corJsone pendant plus de 3 mois"
+    },
+    {
+      "code": "4",
+      "text": "Aucun",
+      "exclusive": true
+    }
+  ],
+  "oid": "v13q_s_prev_gyn_osteoporose_frax",
+  "scale": null,
+  "scores": [
+  ],
+  "text": "Est-ce votre cas :",
+  "title": "Est-ce votre cas :",
+  "type": "MULTI_CHOICES",
+  "durationUnits": null,
+  "displayChoices": null
+}

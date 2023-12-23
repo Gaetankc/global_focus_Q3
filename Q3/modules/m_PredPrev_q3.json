@@ -159,8 +159,127 @@
           "v13q_infos_generales_000": "1"
         }
       }
+    },
+    {
+      "level": 1,
+      "question": "v13q_s_prev_gyn_osteoporose_frax",
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(v13q_infos_generales_000_0 >= 50)",
+        "scope": "PATIENT_SCOPE",
+        "defaultValues": {
+          "v13q_infos_generales_000_0": 49
+        }
+      }
+    },
+    {
+      "level": 1,
+      "question": "v13q_s_gyn_prevention_frottis",
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"1\" in v13q_infos_generales_000)",
+        "scope": "PATIENT_SCOPE",
+        "defaultValues": {
+          "v13q_infos_generales_000": "1"
+        }
+      }
+    },
+    {
+      "level": 1,
+      "question": "v13q_s_gyn_prevention_mammographie",
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"1\" in v13q_infos_generales_000)",
+        "scope": "PATIENT_SCOPE",
+        "defaultValues": {
+          "v13q_infos_generales_000": "1"
+        }
+      }
+    },
+    {
+      "level": 1,
+      "question": "v13q_s_gyn_prevention_consultation",
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"1\" in v13q_infos_generales_000)",
+        "scope": "PATIENT_SCOPE",
+        "defaultValues": {
+          "v13q_infos_generales_000": "1"
+        }
+      }
+    },
+    {
+      "level": 1,
+      "question": "v13q_s_gyn_prevention_consultation_raison",
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"1\" in v13q_infos_generales_000)",
+        "scope": "PATIENT_SCOPE",
+        "defaultValues": {
+          "v13q_infos_generales_000": "1"
+        }
+      }
+    },
+    {
+      "level": 1,
+      "question": "v13q_s_and_atcd_1",
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"0\" in v13q_infos_generales_000)",
+        "scope": "PATIENT_SCOPE",
+        "defaultValues": {
+          "v13q_infos_generales_000": "1"
+        }
+      }
+    },
+    {
+      "level": 1,
+      "question": "v13q_s_and_atcd_2",
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"0\" in v13q_infos_generales_000)",
+        "scope": "PATIENT_SCOPE",
+        "defaultValues": {
+          "v13q_infos_generales_000": "1"
+        }
+      }
+    },
+    {
+      "level": 1,
+      "question": "v13q_s_cv_atcd_1",
+      "isGlobal": true
+    },
+    {
+      "level": 1,
+      "question": "v13q_s_cv_atcd_2",
+      "isGlobal": true
+    },
+    {
+      "level": 1,
+      "question": "v13q_s_cv_prevention_ecg",
+      "isGlobal": true
+    },
+    {
+      "level": 1,
+      "question": "v13q_s_cv_prevention_echo_coeur",
+      "isGlobal": true
+    },
+    {
+      "level": 1,
+      "question": "v13q_s_cv_prevention_echo_tsao",
+      "isGlobal": true
+    },
+    {
+      "level": 1,
+      "question": "v13q_s_pn_atcd_1",
+      "isGlobal": true
+    },
+    {
+      "level": 1,
+      "question": "v13q_s_pn_atcd_2",
+      "isGlobal": true
     }
-
+    
   ],
   "calculations":[
     {

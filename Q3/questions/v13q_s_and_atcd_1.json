@@ -1,0 +1,25 @@
+{
+  "choices": [
+    {
+      "code": "0",
+      "text": "Non"
+    },
+    {
+      "code": "1",
+      "text": "Oui"
+    },
+    {
+      "code": "2",
+      "text": "Je ne sais pas",
+      "exclusive": true
+    }
+  ],
+  "oid": "v13q_s_and_atcd_1",
+  "scores": [
+  ],
+  "text": "Antécédents familiaux prostatiques du 1er degré : Est-ce qu’un ou plusieurs membres de votre famille proche (mère, père, enfant, frère et sœur) présente(nt) actuellement ou présentai(en)t une ou plusieurs de ces maladies ? (Plusieurs choix possibles sauf si vous répondez «aucun»ou«je ne sais pas »)",
+  "title": "Antécédents familiaux prostatiques du 1er degré : Est-ce qu’un ou plusieurs membres de votre famille proche (mère, père, enfant, frère et sœur) présente(nt) actuellement ou présentai(en)t une ou plusieurs de ces maladies ? (Plusieurs choix possibles sauf si vous répondez «aucun»ou«je ne sais pas »)",
+  "type": "SINGLE_CHOICE",
+  "durationUnits": null,
+  "displayChoices": null
+}

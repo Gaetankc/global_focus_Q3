@@ -1,0 +1,25 @@
+{
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais"
+    },
+    {
+      "code": "1",
+      "text": "Moins de 2 ans"
+    },
+    {
+      "code": "2",
+      "text": "Plus de 2 ans"
+    }
+  ],
+  "oid": "v13q_s_gyn_prevention_mammographie",
+  "scale": null,
+  "scores": [
+  ],
+  "text": "Quand avez-vous fait un dépistage du cancer du sein (mammographie, échographie) pour la dernière fois ?",
+  "title": "Quand avez-vous fait un dépistage du cancer du sein (mammographie, échographie) pour la dernière fois ?",
+  "type": "SINGLE_CHOICE",
+  "durationUnits": null,
+  "displayChoices": null
+}

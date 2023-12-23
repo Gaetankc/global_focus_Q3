@@ -1,0 +1,33 @@
+{
+  "choices": [
+    {
+      "code": "0",
+      "text": "Moins d’un an"
+    },
+    {
+      "code": "2",
+      "text": "Entre 1 et 2 ans"
+    },
+    {
+      "code": "3",
+      "text": "Entre 2 et 5 ans"
+    },
+    {
+      "code": "5",
+      "text": "Plus de 5 ans"
+    },
+    {
+      "code": "5",
+      "text": "Jamais"
+    }
+  ],
+  "oid": "v13q_s_cv_prevention_echo_coeur",
+  "scale": null,
+  "scores": [
+  ],
+  "text": "Quand avez-vous réalisé un écho-doppler cardiaque chez un cardiologue pour la dernière fois ?",
+  "title": "Quand avez-vous réalisé un écho-doppler cardiaque chez un cardiologue pour la dernière fois ?",
+  "type": "SINGLE_CHOICE",
+  "durationUnits": null,
+  "displayChoices": null
+}
