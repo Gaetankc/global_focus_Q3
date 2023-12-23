@@ -1,0 +1,25 @@
+{
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais"
+    },
+    {
+      "code": "1",
+      "text": "Moins de 2 ans"
+    },
+    {
+      "code": "2",
+      "text": "Plus de 2 ans"
+    }
+  ],
+  "oid": "v13q_s_prevention_hemocult",
+  "scale": null,
+  "scores": [
+  ],
+  "text": "Quand avez-vous réalisé pour la dernière fois un dépistage du cancer du côlon par la recherche de sang dans les selles (Test Hémoccult) ?",
+  "title": "Quand avez-vous réalisé pour la dernière fois un dépistage du cancer du côlon par la recherche de sang dans les selles (Test Hémoccult) ?",
+  "type": "SINGLE_CHOICE",
+  "durationUnits": null,
+  "displayChoices": null
+}

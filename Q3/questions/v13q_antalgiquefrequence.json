@@ -1,0 +1,21 @@
+{
+  "choices": [
+    {
+      "code": "0",
+      "text": "Non"
+    },
+    {
+      "code": "1",
+      "text": "Oui"
+    }
+  ],
+  "oid": "v13q_antalgiquefrequence",
+  "scale": null,
+  "scores": [
+  ],
+  "text": "Prenez-vous régulièrement des médicaments pour calmer la douleur ?",
+  "title": "Prenez-vous régulièrement des médicaments pour calmer la douleur ?",
+  "type": "SINGLE_CHOICE",
+  "durationUnits": null,
+  "displayChoices": null
+}

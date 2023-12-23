@@ -1,0 +1,37 @@
+{
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais"
+    },
+    {
+      "code": "1",
+      "text": "Moins de 1 an"
+    },
+    {
+      "code": "2",
+      "text": "Entre 1 an et 2 ans"
+    },
+    {
+      "code": "3",
+      "text": "Entre 2 ans et 3 ans"
+    },
+    {
+      "code": "4",
+      "text": "Entre 3 ans et 5 ans"
+    },
+    {
+      "code": "5",
+      "text": "Plus de 5 ans"
+    }
+  ],
+  "oid": "v13q_s_prevention_fibroscopie",
+  "scale": null,
+  "scores": [
+  ],
+  "text": "Quand avez-vous fait une fibroscopie gastrique pour la dernière fois ?",
+  "title": "Quand avez-vous fait une fibroscopie gastrique pour la dernière fois ?",
+  "type": "SINGLE_CHOICE",
+  "durationUnits": null,
+  "displayChoices": null
+}

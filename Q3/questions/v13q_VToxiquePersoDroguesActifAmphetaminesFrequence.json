@@ -1,0 +1,31 @@
+{
+  "choices": [
+    {
+      "code": "0",
+      "text": "1 à 3 fois/an"
+    },
+    {
+      "code": "1",
+      "text": "1 à 3 fois/mois"
+    },
+    {
+      "code": "2",
+      "text": "1 à 2 fois/semaine"
+    },
+    {
+      "code": "3",
+      "text": "3 à 5 fois/semaine"
+    },
+    {
+      "code": "4",
+      "text": "Tous les jours (ou presque)"
+    }
+  ],
+  "oid": "v13q_VToxiquePersoDroguesActifAmphetaminesFrequence",
+  "scale": null,
+  "text": "A quelle frequence consommez-vous des amphetamines et/ou des methamphetamines ?",
+  "title": "A quelle frequence consommez-vous des amphetamines et/ou des methamphetamines ?",
+  "type": "SINGLE_CHOICE",
+  "durationUnits": null,
+  "displayChoices": null
+}

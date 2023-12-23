@@ -1,0 +1,192 @@
+{
+  "oid": "v13m_PredPrev_q3",
+  "title": "Pr Prev Q3",
+  "questions": [
+    {
+      "level": 1,
+      "question": "v13_q_s_psy_atcd_1",
+      "scope": null
+    },
+    {
+      "level": 1,
+      "question": "v13_q_s_psy_atcd_2",
+      "isGlobal": true
+    },
+    {
+      "level": 1,
+      "question": "v13q_s_prev_benzodiazepine",
+      "isGlobal": true
+    },
+    {
+      "level": 1,
+      "question": "v13q_s_prev_benzodiazepine_dependance_1",
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"1\" in v13q_s_prev_benzodiazepine)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "v13q_s_prev_benzodiazepine": "0"
+        }
+      }
+    },
+    {
+      "level": 1,
+      "question": "v13q_s_prev_benzodiazepine_dependance_2",
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"1\" in v13q_s_prev_benzodiazepine)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "v13q_s_prev_benzodiazepine": "0"
+        }
+      }
+    },
+    {
+      "level": 1,
+      "question": "v13q_s_prev_benzodiazepine_dependance_3",
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"1\" in v13q_s_prev_benzodiazepine)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "v13q_s_prev_benzodiazepine": "0"
+        }
+      }
+    },
+    {
+      "level": 1,
+      "question": "v13q_s_prev_benzodiazepine_dependance_4",
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"1\" in v13q_s_prev_benzodiazepine)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "v13q_s_prev_benzodiazepine": "0"
+        }
+      }
+    },
+    {
+      "level": 1,
+      "question": "v13q_s_prev_benzodiazepine_dependance_5",
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"1\" in v13q_s_prev_benzodiazepine)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "v13q_s_prev_benzodiazepine": "0"
+        }
+      }
+    },
+    {
+      "level": 1,
+      "question": "v13q_antalgiquefrequence",
+      "isGlobal": true
+    },
+    {
+      "level": 1,
+      "question": "v13q_antalgiquedependance",
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"1\" in v13q_antalgiquefrequence)",
+        "scope": "MODULE_SCOPE",
+        "defaultValues": {
+          "v13q_antalgiquefrequence": "0"
+        }
+      }
+    },
+    {
+      "level": 1,
+      "question": "v13_q_s_psy_atcd_1",
+      "isGlobal": true
+    },
+    {
+      "level": 1,
+      "question": "v13_q_s_psy_atcd_2",
+      "isGlobal": true
+    },
+    {
+      "level": 1,
+      "question": "v13q_s_prevention_hemocult",
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(v13q_infos_generales_000_0 >= 50)",
+        "scope": "PATIENT_SCOPE",
+        "defaultValues": {
+          "v13q_infos_generales_000_0": 49
+        }
+      }
+    },
+    {
+      "level": 1,
+      "question": "v13q_s_prevention_fibroscopie",
+      "isGlobal": true
+    },
+    {
+      "level": 1,
+      "question": "v13q_s_prevention_coloscopie",
+      "isGlobal": true
+    },
+    {
+      "level": 1,
+      "question": "v13q_s_endo_atcd_1",
+      "isGlobal": true
+    },
+    {
+      "level": 1,
+      "question": "v13q_s_endo_atcd_2",
+      "isGlobal": true
+    },
+    {
+      "level": 1,
+      "question": "v13q_s_gyn_atcd_1",
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"1\" in v13q_infos_generales_000)",
+        "scope": "PATIENT_SCOPE",
+        "defaultValues": {
+          "v13q_infos_generales_000": "1"
+        }
+      }
+    },
+    {
+      "level": 1,
+      "question": "v13q_s_gyn_atcd_2",
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"1\" in v13q_infos_generales_000)",
+        "scope": "PATIENT_SCOPE",
+        "defaultValues": {
+          "v13q_infos_generales_000": "1"
+        }
+      }
+    }
+
+  ],
+  "calculations":[
+    {
+      "oid": "v13calc_CAST",
+      "type": "NORMAL",
+      "isGlobal": true,
+      "calculation": "v13q_VToxiquePersoDroguesActifCannabisCast1 + v13q_VToxiquePersoDroguesActifCannabisCast2 + v13q_VToxiquePersoDroguesActifCannabisCast3 + v13q_VToxiquePersoDroguesActifCannabisCast4 + v13q_VToxiquePersoDroguesActifCannabisCast5 + v13q_VToxiquePersoDroguesActifCannabisCast6",
+      "title": "Calcul CAST",
+      "text": "Calcul CAST",
+      "scores": [
+        {
+          "tagOID": "Tag_VToxiquePersoDroguesActifCast",
+          "conditions": "v13calc_CAST >= 0 && v13calc_CAST <= 2",
+          "value": 0
+        },
+        {
+          "tagOID": "Tag_VToxiquePersoDroguesActifCast",
+          "conditions": "v13calc_CAST >= 3 && v13calc_CAST <= 6",
+          "value": 1
+        },
+        {
+          "tagOID": "Tag_VToxiquePersoDroguesActifCast",
+          "conditions": "v13calc_CAST >= 7 && v13calc_CAST <= 24",
+          "value": 2
+        }
+      ]
+    }
+  ]
+}

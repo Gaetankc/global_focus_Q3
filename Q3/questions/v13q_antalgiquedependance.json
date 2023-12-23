@@ -1,0 +1,33 @@
+{
+  "choices": [
+    {
+      "code": "0",
+      "text": "Non"
+    },
+    {
+      "code": "1",
+      "text": "Dépendance légre"
+    },
+    {
+      "code": "1",
+      "text": "Dépendance moyenne"
+    },
+    {
+      "code": "1",
+      "text": "Dépendance forte"
+    },
+    {
+      "code": "1",
+      "text": "Dépendance très forte"
+    }
+  ],
+  "oid": "v13q_antalgiquedependance",
+  "scale": null,
+  "scores": [
+  ],
+  "text": "Vous sentez-vous dépendant des médicaments pour calmer la douleur ?",
+  "title": "Vous sentez-vous dépendant des médicaments pour calmer la douleur ?",
+  "type": "SINGLE_CHOICE",
+  "durationUnits": null,
+  "displayChoices": null
+}

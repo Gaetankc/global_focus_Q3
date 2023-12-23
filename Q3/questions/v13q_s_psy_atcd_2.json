@@ -1,0 +1,42 @@
+{
+  "choices": [
+    {
+      "code": "0",
+      "text": "Trouble anxieux"
+    },
+    {
+      "code": "1",
+      "text": "Trouble dépressif (majeur ou chronique)"
+    },
+    {
+      "code": "2",
+      "text": "Dépression bipolaire"
+    },
+    {
+      "code": "3",
+      "text": "Suicide"
+    },
+    {
+      "code": "4",
+      "text": "Trouble psychotique (type schizophrénie)"
+    },
+    {
+      "code": "5",
+      "text": "Aucun",
+      "exclusive": true
+    },
+    {
+      "code": "6",
+      "text": "Je ne sais pas",
+      "exclusive": true
+    }
+  ],
+  "oid": "v13_q_s_psy_atcd_1",
+  "scores": [
+  ],
+  "text": "Nous allons maintenant aborder vos antécédents familiaux. Leur connaissance permettra d’améliorer le dépistage et la prévention des maladies présentant une composante héréditaire – Étudions tout d’abord les antécédents psychiatriques familiaux du 2ème degré : Est-ce qu’un ou plusieurs membres de votre famille proche (mère, père, enfant, frère et sœur) présente(nt) actuellement ou présentai(en)t une ou plusieurs de ces maladies ? (Plusieurs choix possibles sauf si vous répondez «aucun»ou«je ne sais pas »)",
+  "title": "Nous allons maintenant aborder vos antécédents familiaux. Leur connaissance permettra d’améliorer le dépistage et la prévention des maladies présentant une composante héréditaire – Étudions tout d’abord les antécédents psychiatriques familiaux du 2ème degré : Est-ce qu’un ou plusieurs membres de votre famille proche (mère, père, enfant, frère et sœur) présente(nt) actuellement ou présentai(en)t une ou plusieurs de ces maladies ? (Plusieurs choix possibles sauf si vous répondez «aucun»ou«je ne sais pas »)",
+  "type": "MULTI_CHOICES",
+  "durationUnits": null,
+  "displayChoices": null
+}

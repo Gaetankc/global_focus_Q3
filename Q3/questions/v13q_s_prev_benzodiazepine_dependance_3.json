@@ -1,0 +1,48 @@
+{
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais ou presque"
+    },
+    {
+      "code": "1",
+      "text": "Quelque fois"
+    },
+    {
+      "code": "2",
+      "text": "Souvent"
+    },
+    {
+      "code": "3",
+      "text": "Toujours ou presque toujours"
+    }
+  ],
+  "oid": "v13q_s_prev_benzodiazepine_dependance_3",
+  "scores": [
+    {
+      "conditions": "v13q_s_prev_benzodiazepine_dependance_3 == 0",
+      "tagOID": "tag_benzo",
+      "value": 0
+    },
+    {
+      "conditions": "v13q_s_prev_benzodiazepine_dependance_3 == 1",
+      "tagOID": "tag_benzo",
+      "value": 1
+    },
+    {
+      "conditions": "v13q_s_prev_benzodiazepine_dependance_3 == 2",
+      "tagOID": "tag_benzo",
+      "value": 2
+    },
+    {
+      "conditions": "v13q_s_prev_benzodiazepine_dependance_3 == 3",
+      "tagOID": "tag_benzo",
+      "value": 3
+    }
+  ],
+  "text": "Au cours des 3 derniers mois, est-ce que la consommation de ce médicament vous a préoccupé́ ?",
+  "title": "Au cours des 3 derniers mois, est-ce que la consommation de ce médicament vous a préoccupé́ ?",
+  "type": "MULTI_CHOICES",
+  "durationUnits": null,
+  "displayChoices": null
+}

@@ -1,0 +1,21 @@
+{
+  "choices": [
+    {
+      "code": "0",
+      "text": "Non"
+    },
+    {
+      "code": "1",
+      "text": "Oui"
+    }
+  ],
+  "oid": "v13q_s_prev_benzodiazepine",
+  "scale": null,
+  "scores": [
+  ],
+  "text": "Prenez-vous régulièrement un médicament pour vous détendre lorsque vous vous sentez stressé, anxieux et/ou pour vous aider à mieux dormir ?",
+  "title": "Prenez-vous régulièrement un médicament pour vous détendre lorsque vous vous sentez stressé, anxieux et/ou pour vous aider à mieux dormir ?",
+  "type": "SINGLE_CHOICE",
+  "durationUnits": null,
+  "displayChoices": null
+}
