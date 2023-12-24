@@ -11,15 +11,15 @@
     "Jean-Philippe Astruc"
   ],
   "chapters": [
-    "v13chap_PredPrev_q3"
+    "v13chap_predprev_q3"
   ],
   "linkedForm": "v13f_complet_q2",
-  "oid": "v13f_PredPrev_q3",
+  "oid": "v13f_predprev_q3",
   "diagnostics": [
     {
       "conditions": {
-        "pas de dépendance": "tag_IPSS < 7",
-        "dépendance probable": "tag_IPSS >= 7"
+        "pas de dépendance": "tag_benzo < 7",
+        "dépendance probable": "tag_benzo >= 7"
       },
       "oid": "diagnostic_benzo"
     }
