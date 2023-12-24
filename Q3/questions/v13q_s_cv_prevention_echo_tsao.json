@@ -5,19 +5,19 @@
       "text": "Moins d’un an"
     },
     {
-      "code": "2",
+      "code": "1",
       "text": "Entre 1 et 2 ans"
     },
     {
-      "code": "3",
+      "code": "2",
       "text": "Entre 2 et 5 ans"
     },
     {
-      "code": "5",
+      "code": "3",
       "text": "Plus de 5 ans"
     },
     {
-      "code": "5",
+      "code": "4",
       "text": "Jamais"
     }
   ],

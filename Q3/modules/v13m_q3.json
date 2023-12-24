@@ -1,0 +1,536 @@
+{
+    "oid": "v13m_predprev_q3",
+    "title": "Pr Prev Q3",
+    "questions": [
+      {
+        "level": 1,
+        "question": "v13_q_s_psy_atcd_1",
+        "scope": null
+      },
+      {
+        "level": 1,
+        "question": "v13_q_s_psy_atcd_2",
+        "isGlobal": true
+      },
+      {
+        "level": 1,
+        "question": "v13q_s_prev_benzodiazepine",
+        "isGlobal": true
+      },
+      {
+        "level": 1,
+        "question": "v13q_s_prev_benzodiazepine_dependance_1",
+        "isGlobal": true,
+        "trigger": {
+          "conditions": "!(\"1\" in v13q_s_prev_benzodiazepine)",
+          "scope": "MODULE_SCOPE",
+          "defaultValues": {
+            "v13q_s_prev_benzodiazepine": "0"
+          }
+        }
+      },
+      {
+        "level": 1,
+        "question": "v13q_s_prev_benzodiazepine_dependance_2",
+        "isGlobal": true,
+        "trigger": {
+          "conditions": "!(\"1\" in v13q_s_prev_benzodiazepine)",
+          "scope": "MODULE_SCOPE",
+          "defaultValues": {
+            "v13q_s_prev_benzodiazepine": "0"
+          }
+        }
+      },
+      {
+        "level": 1,
+        "question": "v13q_s_prev_benzodiazepine_dependance_3",
+        "isGlobal": true,
+        "trigger": {
+          "conditions": "!(\"1\" in v13q_s_prev_benzodiazepine)",
+          "scope": "MODULE_SCOPE",
+          "defaultValues": {
+            "v13q_s_prev_benzodiazepine": "0"
+          }
+        }
+      },
+      {
+        "level": 1,
+        "question": "v13q_s_prev_benzodiazepine_dependance_4",
+        "isGlobal": true,
+        "trigger": {
+          "conditions": "!(\"1\" in v13q_s_prev_benzodiazepine)",
+          "scope": "MODULE_SCOPE",
+          "defaultValues": {
+            "v13q_s_prev_benzodiazepine": "0"
+          }
+        }
+      },
+      {
+        "level": 1,
+        "question": "v13q_s_prev_benzodiazepine_dependance_5",
+        "isGlobal": true,
+        "trigger": {
+          "conditions": "!(\"1\" in v13q_s_prev_benzodiazepine)",
+          "scope": "MODULE_SCOPE",
+          "defaultValues": {
+            "v13q_s_prev_benzodiazepine": "0"
+          }
+        }
+      },
+      {
+        "level": 1,
+        "question": "v13q_antalgiquefrequence",
+        "isGlobal": true
+      },
+      {
+        "level": 1,
+        "question": "v13q_antalgiquedependance",
+        "isGlobal": true,
+        "trigger": {
+          "conditions": "!(\"1\" in v13q_antalgiquefrequence)",
+          "scope": "MODULE_SCOPE",
+          "defaultValues": {
+            "v13q_antalgiquefrequence": "0"
+          }
+        }
+      },
+      {
+        "level": 1,
+        "question": "v13q_s_dig_atcd_1",
+        "isGlobal": true
+      },
+      {
+        "level": 1,
+        "question": "v13q_s_dig_atcd_2",
+        "isGlobal": true
+      },
+      {
+        "level": 1,
+        "question": "v13q_s_prevention_hemocult",
+        "isGlobal": true,
+        "trigger": {
+          "conditions": "!(v13q_infos_generales_000_0 >= 50)",
+          "scope": "PATIENT_SCOPE",
+          "defaultValues": {
+            "v13q_infos_generales_000_0": 49
+          }
+        }
+      },
+      {
+        "level": 1,
+        "question": "v13q_s_prevention_fibroscopie",
+        "isGlobal": true
+      },
+      {
+        "level": 1,
+        "question": "v13q_s_prevention_coloscopie",
+        "isGlobal": true
+      },
+      {
+        "level": 1,
+        "question": "v13q_s_endo_atcd_1",
+        "isGlobal": true
+      },
+      {
+        "level": 1,
+        "question": "v13q_s_endo_atcd_2",
+        "isGlobal": true
+      },
+      {
+        "level": 1,
+        "question": "v13q_s_gyn_atcd_1",
+        "isGlobal": true,
+        "trigger": {
+          "conditions": "!(\"1\" in v13q_infos_generales_000)",
+          "scope": "PATIENT_SCOPE",
+          "defaultValues": {
+            "v13q_infos_generales_000": "1"
+          }
+        }
+      },
+      {
+        "level": 1,
+        "question": "v13q_s_gyn_atcd_2",
+        "isGlobal": true,
+        "trigger": {
+          "conditions": "!(\"1\" in v13q_infos_generales_000)",
+          "scope": "PATIENT_SCOPE",
+          "defaultValues": {
+            "v13q_infos_generales_000": "1"
+          }
+        }
+      },
+      {
+        "level": 1,
+        "question": "v13q_s_prev_gyn_osteoporose_frax",
+        "isGlobal": true,
+        "trigger": {
+          "conditions": "!(v13q_infos_generales_000_0 >= 50)",
+          "scope": "PATIENT_SCOPE",
+          "defaultValues": {
+            "v13q_infos_generales_000_0": 49
+          }
+        }
+      },
+      {
+        "level": 1,
+        "question": "v13q_s_gyn_prevention_frottis",
+        "isGlobal": true,
+        "trigger": {
+          "conditions": "!(\"1\" in v13q_infos_generales_000)",
+          "scope": "PATIENT_SCOPE",
+          "defaultValues": {
+            "v13q_infos_generales_000": "1"
+          }
+        }
+      },
+      {
+        "level": 1,
+        "question": "v13q_s_gyn_prevention_mammographie",
+        "isGlobal": true,
+        "trigger": {
+          "conditions": "!(\"1\" in v13q_infos_generales_000)",
+          "scope": "PATIENT_SCOPE",
+          "defaultValues": {
+            "v13q_infos_generales_000": "1"
+          }
+        }
+      },
+      {
+        "level": 1,
+        "question": "v13q_s_gyn_prevention_consultation",
+        "isGlobal": true,
+        "trigger": {
+          "conditions": "!(\"1\" in v13q_infos_generales_000)",
+          "scope": "PATIENT_SCOPE",
+          "defaultValues": {
+            "v13q_infos_generales_000": "1"
+          }
+        }
+      },
+      {
+        "level": 1,
+        "question": "v13q_s_gyn_prevention_consultation_raison",
+        "isGlobal": true,
+        "trigger": {
+          "conditions": "!(\"1\" in v13q_infos_generales_000)",
+          "scope": "PATIENT_SCOPE",
+          "defaultValues": {
+            "v13q_infos_generales_000": "1"
+          }
+        }
+      },
+      {
+        "level": 1,
+        "question": "v13q_s_and_atcd_1",
+        "isGlobal": true,
+        "trigger": {
+          "conditions": "!(\"0\" in v13q_infos_generales_000)",
+          "scope": "PATIENT_SCOPE",
+          "defaultValues": {
+            "v13q_infos_generales_000": "1"
+          }
+        }
+      },
+      {
+        "level": 1,
+        "question": "v13q_s_and_atcd_2",
+        "isGlobal": true,
+        "trigger": {
+          "conditions": "!(\"0\" in v13q_infos_generales_000)",
+          "scope": "PATIENT_SCOPE",
+          "defaultValues": {
+            "v13q_infos_generales_000": "1"
+          }
+        }
+      },
+      {
+        "level": 1,
+        "question": "v13q_s_cv_atcd_1",
+        "isGlobal": true
+      },
+      {
+        "level": 1,
+        "question": "v13q_s_cv_atcd_2",
+        "isGlobal": true
+      },
+      {
+        "level": 1,
+        "question": "v13q_s_cv_prevention_ecg",
+        "isGlobal": true
+      },
+      {
+        "level": 1,
+        "question": "v13q_s_cv_prevention_echo_coeur",
+        "isGlobal": true
+      },
+      {
+        "level": 1,
+        "question": "v13q_s_cv_prevention_echo_tsao",
+        "isGlobal": true
+      },
+      {
+        "level": 1,
+        "question": "v13q_s_cv_prevention_epreuve_effort",
+        "isGlobal": true
+      },
+      {
+        "level": 1,
+        "question": "v13q_s_pn_atcd_1",
+        "isGlobal": true
+      },
+      {
+        "level": 1,
+        "question": "v13q_s_pn_atcd_2",
+        "isGlobal": true
+      },
+      {
+        "level": 1,
+        "question": "v13q_pn_pred_bpco_5",
+        "isGlobal": true
+      },
+      {
+        "level": 1,
+        "question": "v13q_s_pno_prevention_consult",
+        "isGlobal": true
+      },
+      {
+        "level": 1,
+        "question": "v13q_s_un_atcd_1",
+        "isGlobal": true
+      },
+      {
+        "level": 1,
+        "question": "v13q_s_un_atcd_2",
+        "isGlobal": true
+      },
+      {
+        "level": 1,
+        "question": "v13q_pred_findrisc_4",
+        "isGlobal": true
+      },
+      {
+        "level": 1,
+        "question": "v13q_pred_findrisc_5",
+        "isGlobal": true
+      },
+      {
+        "level": 1,
+        "question": "v13q_pred_findrisc_6",
+        "isGlobal": true
+      },
+      {
+        "level": 1,
+        "question": "v13q_pred_findrisc_7",
+        "isGlobal": true
+      },
+      {
+        "level": 1,
+        "question": "v13q_s_n_atcd_1",
+        "isGlobal": true
+      },
+      {
+        "level": 1,
+        "question": "v13q_s_n_atcd_2",
+        "isGlobal": true
+      },
+      {
+        "level": 1,
+        "question": "v13q_s_rms_atcd_1",
+        "isGlobal": true
+      },
+      {
+        "level": 1,
+        "question": "v13q_s_rms_atcd_2",
+        "isGlobal": true
+      },
+      {
+        "level": 1,
+        "question": "v13q_s_sto_prevention_consult",
+        "isGlobal": true
+      },
+      {
+        "level": 1,
+        "question": "v13q_s_sto_prevention_motif_consult",
+        "isGlobal": true
+      },
+      {
+        "level": 1,
+        "question": "v13q_s_der_prevention_consult",
+        "isGlobal": true
+      },
+      {
+        "level": 1,
+        "question": "v13q_s_der_prevention_consult_peau_risque",
+        "isGlobal": true
+      },
+      {
+        "level": 1,
+        "question": "v13q_s_orl_prevention_consult",
+        "isGlobal": true
+      },
+      {
+        "level": 1,
+        "question": "v13q_s_oph_prevention_consult",
+        "isGlobal": true
+      },
+      {
+        "level": 1,
+        "question": "v13q_s_he_im_prevention_transfusion",
+        "isGlobal": true
+      },
+      {
+        "level": 1,
+        "question": "v13q_s_preventif_biologie",
+        "isGlobal": true
+      },
+      {
+        "level": 1,
+        "question": "v13q_s_prev_vaccin_diphterie",
+        "isGlobal": true
+      },
+      {
+        "level": 1,
+        "question": "v13q_s_prev_vaccin_diphterie_date",
+        "isGlobal": true,
+        "trigger": {
+          "conditions": "!(\"0\" in v13q_s_prev_vaccin_diphterie)",
+          "scope": "PATIENT_SCOPE",
+          "defaultValues": {
+            "v13q_s_prev_vaccin_diphterie": "1"
+          }
+        }
+      },
+      {
+        "level": 1,
+        "question": "v13q_s_prev_vaccin_tetanos",
+        "isGlobal": true
+      },
+      {
+        "level": 1,
+        "question": "v13q_s_prev_vaccin_tetanos_date",
+        "isGlobal": true,
+        "trigger": {
+          "conditions": "!(\"0\" in v13q_s_prev_vaccin_tetanos)",
+          "scope": "PATIENT_SCOPE",
+          "defaultValues": {
+            "v13q_s_prev_vaccin_tetanos": "1"
+          }
+        }
+      },
+      {
+        "level": 1,
+        "question": "v13q_s_prev_vaccin_poliomyelite",
+        "isGlobal": true
+      },
+      {
+        "level": 1,
+        "question": "v13q_s_prev_vaccin_poliomyelite_date",
+        "isGlobal": true,
+        "trigger": {
+          "conditions": "!(\"0\" in v13q_s_prev_vaccin_poliomyelite)",
+          "scope": "PATIENT_SCOPE",
+          "defaultValues": {
+            "v13q_s_prev_vaccin_poliomyelite": "1"
+          }
+        }
+      },
+      {
+        "level": 1,
+        "question": "v13q_s_prev_vaccin_coqueluche",
+        "isGlobal": true
+      },
+      {
+        "level": 1,
+        "question": "v13q_s_prev_vaccin_coqueluche_date",
+        "isGlobal": true,
+        "trigger": {
+          "conditions": "!(\"0\" in v13q_s_prev_vaccin_coqueluche)",
+          "scope": "PATIENT_SCOPE",
+          "defaultValues": {
+            "v13q_s_prev_vaccin_coqueluche": "1"
+          }
+        }
+      },
+      {
+        "level": 1,
+        "question": "v13q_s_prev_vaccin_rougeole",
+        "isGlobal": true
+      },
+      {
+        "level": 1,
+        "question": "v13q_s_prev_vaccin_rougeole_date",
+        "isGlobal": true,
+        "trigger": {
+          "conditions": "!(\"0\" in v13q_s_prev_vaccin_rougeole)",
+          "scope": "PATIENT_SCOPE",
+          "defaultValues": {
+            "v13q_s_prev_vaccin_rougeole": "1"
+          }
+        }
+      },
+      {
+        "level": 1,
+        "question": "v13q_s_prev_vaccin_hepatite_b",
+        "isGlobal": true
+      },
+      {
+        "level": 1,
+        "question": "v13q_s_prev_vaccin_hepatite_b_date",
+        "isGlobal": true,
+        "trigger": {
+          "conditions": "!(\"0\" in v13q_s_prev_vaccin_hepatite_b)",
+          "scope": "PATIENT_SCOPE",
+          "defaultValues": {
+            "v13q_s_prev_vaccin_hepatite_b": "1"
+          }
+        }
+      },
+      {
+        "level": 1,
+        "question": "v13q_s_prev_vaccin_pneumocoque",
+        "isGlobal": true
+      },
+      {
+        "level": 1,
+        "question": "v13q_s_prev_vaccin_pneumocoque_date",
+        "isGlobal": true,
+        "trigger": {
+          "conditions": "!(\"0\" in v13q_s_prev_vaccin_pneumocoque)",
+          "scope": "PATIENT_SCOPE",
+          "defaultValues": {
+            "v13q_s_prev_vaccin_pneumocoque": "1"
+          }
+        }
+      },
+      {
+        "level": 1,
+        "question": "v13q_s_prev_vaccin_hepatite_a",
+        "isGlobal": true
+      },
+      {
+        "level": 1,
+        "question": "v13q_s_prev_vaccin_hepatite_a_date",
+        "isGlobal": true,
+        "trigger": {
+          "conditions": "!(\"0\" in v13q_s_prev_vaccin_hepatite_a)",
+          "scope": "PATIENT_SCOPE",
+          "defaultValues": {
+            "v13q_s_prev_vaccin_hepatite_a": "1"
+          }
+        }
+      },
+      {
+        "level": 1,
+        "question": "v13q_s_prev_vaccin_grippe",
+        "isGlobal": true
+      },
+      {
+        "level": 1,
+        "question": "v13q_s_prev_vaccin_covid",
+        "isGlobal": true
+      }
+    ],
+    "calculations":[
+    ]
+  }

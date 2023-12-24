@@ -9,15 +9,15 @@
       "text": "Dépendance légre"
     },
     {
-      "code": "1",
+      "code": "2",
       "text": "Dépendance moyenne"
     },
     {
-      "code": "1",
+      "code": "3",
       "text": "Dépendance forte"
     },
     {
-      "code": "1",
+      "code": "4",
       "text": "Dépendance très forte"
     }
   ],

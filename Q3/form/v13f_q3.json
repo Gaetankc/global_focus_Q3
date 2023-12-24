@@ -1,0 +1,29 @@
+{
+    "professions": [
+      "DENTIST"
+    ],
+    "title": "Q3 Global Focus Prédictif Préventif",
+    "levelMax": 1,
+    "description": "Q3 Prédictif Préventif",
+    "estimatedTime": "5",
+    "pricing": 0,
+    "authors": [
+      "Jean-Philippe Astruc"
+    ],
+    "chapters": [
+      "v13chap_predprev_q3"
+    ],
+    "linkedForm": "v13f_complet_q2",
+    "oid": "v13f_predprev_q3",
+    "diagnostics": [
+      {
+        "conditions": {
+          "pas de dépendance": "tag_benzo < 7",
+          "dépendance probable": "tag_benzo >= 7"
+        },
+        "oid": "diagnostic_benzo"
+      }
+    ],
+    "reportingTrees": [
+    ]
+  }
