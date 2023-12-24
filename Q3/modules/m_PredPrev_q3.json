@@ -278,34 +278,254 @@
       "level": 1,
       "question": "v13q_s_pn_atcd_2",
       "isGlobal": true
+    },
+    {
+      "level": 1,
+      "question": "v13q_pn_pred_bpco_5",
+      "isGlobal": true
+    },
+    {
+      "level": 1,
+      "question": "v13q_s_pno_prevention_consult",
+      "isGlobal": true
+    },
+    {
+      "level": 1,
+      "question": "v13q_s_un_atcd_1",
+      "isGlobal": true
+    },
+    {
+      "level": 1,
+      "question": "v13q_s_un_atcd_2",
+      "isGlobal": true
+    },
+    {
+      "level": 1,
+      "question": "v13q_pred_findrisc_4",
+      "isGlobal": true
+    },
+    {
+      "level": 1,
+      "question": "v13q_pred_findrisc_5",
+      "isGlobal": true
+    },
+    {
+      "level": 1,
+      "question": "v13q_pred_findrisc_6",
+      "isGlobal": true
+    },
+    {
+      "level": 1,
+      "question": "v13q_pred_findrisc_7",
+      "isGlobal": true
+    },
+    {
+      "level": 1,
+      "question": "v13q_s_n_atcd_1",
+      "isGlobal": true
+    },
+    {
+      "level": 1,
+      "question": "v13q_s_n_atcd_2",
+      "isGlobal": true
+    },
+    {
+      "level": 1,
+      "question": "v13q_s_rms_atcd_1",
+      "isGlobal": true
+    },
+    {
+      "level": 1,
+      "question": "v13q_s_rms_atcd_2",
+      "isGlobal": true
+    },
+    {
+      "level": 1,
+      "question": "v13q_s_sto_prevention_consult",
+      "isGlobal": true
+    },
+    {
+      "level": 1,
+      "question": "v13q_s_sto_prevention_motif_consult",
+      "isGlobal": true
+    },
+    {
+      "level": 1,
+      "question": "v13q_s_der_prevention_consult",
+      "isGlobal": true
+    },
+    {
+      "level": 1,
+      "question": "v13q_s_der_prevention_consult_peau_risque",
+      "isGlobal": true
+    },
+    {
+      "level": 1,
+      "question": "v13q_s_orl_prevention_consult",
+      "isGlobal": true
+    },
+    {
+      "level": 1,
+      "question": "v13q_s_oph_prevention_consult",
+      "isGlobal": true
+    },
+    {
+      "level": 1,
+      "question": "v13q_s_he_im_prevention_transfusion",
+      "isGlobal": true
+    },
+    {
+      "level": 1,
+      "question": "v13q_s_preventif_biologie",
+      "isGlobal": true
+    },
+    {
+      "level": 1,
+      "question": "v13q_s_prev_vaccin_diphterie",
+      "isGlobal": true
+    },
+    {
+      "level": 1,
+      "question": "v13q_s_prev_vaccin_diphterie_date",
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"0\" in v13q_s_prev_vaccin_diphterie)",
+        "scope": "PATIENT_SCOPE",
+        "defaultValues": {
+          "v13q_s_prev_vaccin_diphterie": "1"
+        }
+      }
+    },
+    {
+      "level": 1,
+      "question": "v13q_s_prev_vaccin_tetanos",
+      "isGlobal": true
+    },
+    {
+      "level": 1,
+      "question": "v13q_s_prev_vaccin_tetanos_date",
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"0\" in v13q_s_prev_vaccin_tetanos)",
+        "scope": "PATIENT_SCOPE",
+        "defaultValues": {
+          "v13q_s_prev_vaccin_tetanos": "1"
+        }
+      }
+    },
+    {
+      "level": 1,
+      "question": "v13q_s_prev_vaccin_poliomyelite",
+      "isGlobal": true
+    },
+    {
+      "level": 1,
+      "question": "v13q_s_prev_vaccin_poliomyelite_date",
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"0\" in v13q_s_prev_vaccin_poliomyelite)",
+        "scope": "PATIENT_SCOPE",
+        "defaultValues": {
+          "v13q_s_prev_vaccin_poliomyelite": "1"
+        }
+      }
+    },
+    {
+      "level": 1,
+      "question": "v13q_s_prev_vaccin_coqueluche",
+      "isGlobal": true
+    },
+    {
+      "level": 1,
+      "question": "v13q_s_prev_vaccin_coqueluche_date",
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"0\" in v13q_s_prev_vaccin_coqueluche)",
+        "scope": "PATIENT_SCOPE",
+        "defaultValues": {
+          "v13q_s_prev_vaccin_coqueluche": "1"
+        }
+      }
+    },
+    {
+      "level": 1,
+      "question": "v13q_s_prev_vaccin_rougeole",
+      "isGlobal": true
+    },
+    {
+      "level": 1,
+      "question": "v13q_s_prev_vaccin_rougeole_date",
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"0\" in v13q_s_prev_vaccin_rougeole)",
+        "scope": "PATIENT_SCOPE",
+        "defaultValues": {
+          "v13q_s_prev_vaccin_rougeole": "1"
+        }
+      }
+    },
+    {
+      "level": 1,
+      "question": "v13q_s_prev_vaccin_hepatite_b",
+      "isGlobal": true
+    },
+    {
+      "level": 1,
+      "question": "v13q_s_prev_vaccin_hepatite_b_date",
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"0\" in v13q_s_prev_vaccin_hepatite_b)",
+        "scope": "PATIENT_SCOPE",
+        "defaultValues": {
+          "v13q_s_prev_vaccin_hepatite_b": "1"
+        }
+      }
+    },
+    {
+      "level": 1,
+      "question": "v13q_s_prev_vaccin_pneumocoque",
+      "isGlobal": true
+    },
+    {
+      "level": 1,
+      "question": "v13q_s_prev_vaccin_pneumocoque_date",
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"0\" in v13q_s_prev_vaccin_pneumocoque)",
+        "scope": "PATIENT_SCOPE",
+        "defaultValues": {
+          "v13q_s_prev_vaccin_pneumocoque": "1"
+        }
+      }
+    },
+    {
+      "level": 1,
+      "question": "v13q_s_prev_vaccin_hepatite_a",
+      "isGlobal": true
+    },
+    {
+      "level": 1,
+      "question": "v13q_s_prev_vaccin_hepatite_a_date",
+      "isGlobal": true,
+      "trigger": {
+        "conditions": "!(\"0\" in v13q_s_prev_vaccin_hepatite_a)",
+        "scope": "PATIENT_SCOPE",
+        "defaultValues": {
+          "v13q_s_prev_vaccin_hepatite_a": "1"
+        }
+      }
+    },
+    {
+      "level": 1,
+      "question": "v13q_s_prev_vaccin_grippe",
+      "isGlobal": true
+    },
+    {
+      "level": 1,
+      "question": "v13q_s_prev_vaccin_covid",
+      "isGlobal": true
     }
-    
   ],
   "calculations":[
-    {
-      "oid": "v13calc_CAST",
-      "type": "NORMAL",
-      "isGlobal": true,
-      "calculation": "v13q_VToxiquePersoDroguesActifCannabisCast1 + v13q_VToxiquePersoDroguesActifCannabisCast2 + v13q_VToxiquePersoDroguesActifCannabisCast3 + v13q_VToxiquePersoDroguesActifCannabisCast4 + v13q_VToxiquePersoDroguesActifCannabisCast5 + v13q_VToxiquePersoDroguesActifCannabisCast6",
-      "title": "Calcul CAST",
-      "text": "Calcul CAST",
-      "scores": [
-        {
-          "tagOID": "Tag_VToxiquePersoDroguesActifCast",
-          "conditions": "v13calc_CAST >= 0 && v13calc_CAST <= 2",
-          "value": 0
-        },
-        {
-          "tagOID": "Tag_VToxiquePersoDroguesActifCast",
-          "conditions": "v13calc_CAST >= 3 && v13calc_CAST <= 6",
-          "value": 1
-        },
-        {
-          "tagOID": "Tag_VToxiquePersoDroguesActifCast",
-          "conditions": "v13calc_CAST >= 7 && v13calc_CAST <= 24",
-          "value": 2
-        }
-      ]
-    }
   ]
 }

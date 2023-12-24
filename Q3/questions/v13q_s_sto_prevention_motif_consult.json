@@ -1,0 +1,29 @@
+{
+  "choices": [
+    {
+      "code": "0",
+      "text": "Visite de contrôle ou détartrage annuel"
+    },
+    {
+      "code": "1",
+      "text": "Plan de traitement dentaire"
+    },
+    {
+      "code": "2",
+      "text": "En urgence (douleurs...)"
+    },
+    {
+      "code": "3",
+      "text": "Traitement esthétique"
+    }
+  ],
+  "oid": "v13q_s_sto_prevention_motif_consult",
+  "scale": null,
+  "scores": [
+  ],
+  "text": "Pour quelle raison avez-vous consulté dernièrement votre dentiste ? (une seule réponse)",
+  "title": "Pour quelle raison avez-vous consulté dernièrement votre dentiste ? (une seule réponse)",
+  "type": "SINGLE_CHOICE",
+  "durationUnits": null,
+  "displayChoices": null
+}

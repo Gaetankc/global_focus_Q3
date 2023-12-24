@@ -1,0 +1,25 @@
+{
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vacciné"
+    },
+    {
+      "code": "1",
+      "text": "Jamais vacciné"
+    },
+    {
+      "code": "2",
+      "text": "Je ne sais pas"
+    }
+  ],
+  "oid": "v13q_s_prev_vaccin_tetanos",
+  "scale": null,
+  "scores": [
+  ],
+  "text": "Quel est votre statut vaccinal : Tétanos (DTPolio, Revaxis, Infanrix, Pentavac, Repevax, Boostrix tetra, Tetravac)",
+  "title": "Quel est votre statut vaccinal : Tétanos (DTPolio, Revaxis, Infanrix, Pentavac, Repevax, Boostrix tetra, Tetravac)",
+  "type": "SINGLE_CHOICE",
+  "durationUnits": null,
+  "displayChoices": null
+}

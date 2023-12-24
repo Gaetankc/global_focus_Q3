@@ -1,0 +1,21 @@
+{
+  "choices": [
+    {
+      "code": "2",
+      "text": "Non"
+    },
+    {
+      "code": "0",
+      "text": "Oui"
+    }
+  ],
+  "oid": "v13q_pred_findrisc_4",
+  "scale": null,
+  "scores": [
+  ],
+  "text": "Pratiquez-vous au moins 30 minutes d’activité physique par jour ?",
+  "title": "Pratiquez-vous au moins 30 minutes d’activité physique par jour ?",
+  "type": "SINGLE_CHOICE",
+  "durationUnits": null,
+  "displayChoices": null
+}

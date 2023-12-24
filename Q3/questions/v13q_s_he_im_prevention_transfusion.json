@@ -1,0 +1,25 @@
+{
+  "choices": [
+    {
+      "code": "0",
+      "text": "Oui"
+    },
+    {
+      "code": "1",
+      "text": "Non"
+    },
+    {
+      "code": "2",
+      "text": "Je ne sais pas"
+    }
+  ],
+  "oid": "v13q_s_he_im_prevention_transfusion",
+  "scale": null,
+  "scores": [
+  ],
+  "text": "Avez-vous déjà eu une transfusion (sang, plaquettes) et/ou un traitement à base de produits dérivés du plasma (immunoglobulines, facteurs de coagulation...) ?",
+  "title": "Avez-vous déjà eu une transfusion (sang, plaquettes) et/ou un traitement à base de produits dérivés du plasma (immunoglobulines, facteurs de coagulation...) ?",
+  "type": "SINGLE_CHOICE",
+  "durationUnits": null,
+  "displayChoices": null
+}

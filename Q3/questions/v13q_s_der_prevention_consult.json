@@ -1,0 +1,33 @@
+{
+  "choices": [
+    {
+      "code": "0",
+      "text": "Moins d'un an"
+    },
+    {
+      "code": "1",
+      "text": "Entre 1 et 2 ans"
+    },
+    {
+      "code": "2",
+      "text": "Entre 2 ans et 5 ans"
+    },
+    {
+      "code": "3",
+      "text": "Plus de 5 ans"
+    },
+    {
+      "code": "4",
+      "text": "Je n'ai jamais consulté de médecin dermatologue"
+    }
+  ],
+  "oid": "v13q_s_der_prevention_consult",
+  "scale": null,
+  "scores": [
+  ],
+  "text": "Quand avez-vous consulté un médecin dermatologue pour la dernière fois ? (une seule réponse)",
+  "title": "Quand avez-vous consulté un médecin dermatologue pour la dernière fois ? (une seule réponse)",
+  "type": "SINGLE_CHOICE",
+  "durationUnits": null,
+  "displayChoices": null
+}

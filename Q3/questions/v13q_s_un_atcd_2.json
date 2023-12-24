@@ -1,0 +1,34 @@
+{
+  "choices": [
+    {
+      "code": "0",
+      "text": "Cancer du rein"
+    },
+    {
+      "code": "1",
+      "text": "Coliques néphrétiques (calculs rénaux)"
+    },
+    {
+      "code": "2",
+      "text": "Polykystose rénale (kystes du rein)"
+    },
+    {
+      "code": "3",
+      "text": "Aucun",
+      "exclusive": true
+    },
+    {
+      "code": "4",
+      "text": "Je ne sais pas",
+      "exclusive": true
+    }
+  ],
+  "oid": "v13q_s_un_atcd_2",
+  "scores": [
+  ],
+  "text": "Antécédents familiaux rénaux du 2ème degré : Est-ce qu’un ou plusieurs membres de votre famille proche (mère, père, enfant, frère et sœur) présente(nt) actuellement ou présentai(en)t une ou plusieurs de ces maladies ? (Plusieurs choix possibles sauf si vous répondez «aucun»ou«je ne sais pas »)",
+  "title": "Antécédents familiaux rénaux du 2ème degré : Est-ce qu’un ou plusieurs membres de votre famille proche (mère, père, enfant, frère et sœur) présente(nt) actuellement ou présentai(en)t une ou plusieurs de ces maladies ? (Plusieurs choix possibles sauf si vous répondez «aucun»ou«je ne sais pas »)",
+  "type": "MULTI_CHOICES",
+  "durationUnits": null,
+  "displayChoices": null
+}

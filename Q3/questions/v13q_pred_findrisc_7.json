@@ -1,0 +1,21 @@
+{
+  "choices": [
+    {
+      "code": "0",
+      "text": "Non"
+    },
+    {
+      "code": "5",
+      "text": "Oui"
+    }
+  ],
+  "oid": "v13q_pred_findrisc_7",
+  "scale": null,
+  "scores": [
+  ],
+  "text": "Vous a-t-on déjà découvert un taux de sucre sanguin élevé ?",
+  "title": "Vous a-t-on déjà découvert un taux de sucre sanguin élevé ?",
+  "type": "SINGLE_CHOICE",
+  "durationUnits": null,
+  "displayChoices": null
+}

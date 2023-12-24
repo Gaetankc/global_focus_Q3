@@ -1,0 +1,41 @@
+{
+  "choices": [
+    {
+      "code": "0",
+      "text": "Moins de 6 mois"
+    },
+    {
+      "code": "1",
+      "text": "Entre 6 mois et 1 an"
+    },
+    {
+      "code": "2",
+      "text": "Entre 1 et 2 ans"
+    },
+    {
+      "code": "3",
+      "text": "Entre 2 et 3 ans"
+    },
+    {
+      "code": "4",
+      "text": "Entre 3 et 5 ans"
+    },
+    {
+      "code": "5",
+      "text": "Plus de 5 ans"
+    },
+    {
+      "code": "6",
+      "text": "Je n'ai jamais consulté de pneumologue"
+    }
+  ],
+  "oid": "v13q_s_pno_prevention_consult",
+  "scale": null,
+  "scores": [
+  ],
+  "text": "Quand avez-vous réalisé une consultation gynécologique pour la dernière fois ?",
+  "title": "Quand avez-vous réalisé une consultation gynécologique pour la dernière fois ?",
+  "type": "SINGLE_CHOICE",
+  "durationUnits": null,
+  "displayChoices": null
+}

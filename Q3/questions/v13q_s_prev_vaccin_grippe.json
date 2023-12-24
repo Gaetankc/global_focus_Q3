@@ -1,0 +1,29 @@
+{
+  "choices": [
+    {
+      "code": "0",
+      "text": "Vacciné : dernier vaccin fait il y a moins d’un an"
+    },
+    {
+      "code": "1",
+      "text": "Vacciné : dernier vaccin faitilyaplus d’un an"
+    },
+    {
+      "code": "2",
+      "text": "Jamais vacciné"
+    },
+    {
+      "code": "3",
+      "text": "Je ne sais pas"
+    }
+  ],
+  "oid": "v13q_s_prev_vaccin_grippe",
+  "scale": null,
+  "scores": [
+  ],
+  "text": "Quel est votre statut vaccinal : Grippe",
+  "title": "Quel est votre statut vaccinal : Grippe",
+  "type": "SINGLE_CHOICE",
+  "durationUnits": null,
+  "displayChoices": null
+}

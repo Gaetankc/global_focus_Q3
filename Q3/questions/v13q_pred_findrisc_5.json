@@ -1,0 +1,21 @@
+{
+  "choices": [
+    {
+      "code": "0",
+      "text": "Tous les jours"
+    },
+    {
+      "code": "1",
+      "text": "Pas tous les jours"
+    }
+  ],
+  "oid": "v13q_pred_findrisc_5",
+  "scale": null,
+  "scores": [
+  ],
+  "text": "Combien de fois mangez-vous des légumes et des fruits ?",
+  "title": "Combien de fois mangez-vous des légumes et des fruits ?",
+  "type": "SINGLE_CHOICE",
+  "durationUnits": null,
+  "displayChoices": null
+}

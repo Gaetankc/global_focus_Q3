@@ -1,0 +1,21 @@
+{
+  "choices": [
+    {
+      "code": "0",
+      "text": "Non"
+    },
+    {
+      "code": "2",
+      "text": "Oui"
+    }
+  ],
+  "oid": "v13q_pred_findrisc_6",
+  "scale": null,
+  "scores": [
+  ],
+  "text": "Vous a-t-on déjà prescrit des médicaments contre l’hypertension artérielle ?",
+  "title": "Vous a-t-on déjà prescrit des médicaments contre l’hypertension artérielle ?",
+  "type": "SINGLE_CHOICE",
+  "durationUnits": null,
+  "displayChoices": null
+}

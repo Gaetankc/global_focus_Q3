@@ -1,0 +1,37 @@
+{
+  "choices": [
+    {
+      "code": "0",
+      "text": "Moins d'un an"
+    },
+    {
+      "code": "1",
+      "text": "Entre 1 et 2 ans"
+    },
+    {
+      "code": "2",
+      "text": "Entre 2 ans et 3 ans"
+    },
+    {
+      "code": "3",
+      "text": "Entre 3 ans et 5 ans"
+    },
+    {
+      "code": "4",
+      "text": "Plus de 5 ans"
+    },
+    {
+      "code": "5",
+      "text": "Je n’ai jamais consulté d’ophtalmologiste"
+    }
+  ],
+  "oid": "v13q_s_oph_prevention_consult",
+  "scale": null,
+  "scores": [
+  ],
+  "text": "Quand avez-vous consulté un ophtalmologiste pour la dernière fois ?",
+  "title": "Quand avez-vous consulté un ophtalmologiste pour la dernière fois ?",
+  "type": "SINGLE_CHOICE",
+  "durationUnits": null,
+  "displayChoices": null
+}
