@@ -1,0 +1,31 @@
+{
+  "choices": [
+    {
+      "code": "0",
+      "text": "Non"
+    },
+    {
+      "code": "1",
+      "text": "Oui"
+    }
+  ],
+  "oid": "v13q_pn_pred_bpco_4",
+  "scale": null,
+  "scores": [
+    {
+      "conditions": "v13q_pn_pred_bpco_4 == 0",
+      "tagOID": "tag_bpco",
+      "value": 0
+    },
+    {
+      "conditions": "v13q_pn_pred_bpco_4 == 1",
+      "tagOID": "tag_bpco",
+      "value": 1
+    }
+  ],
+  "text": "Avez-vous plus de 40 ans ?",
+  "title": "Avez-vous plus de 40 ans ?",
+  "type": "SINGLE_CHOICE",
+  "durationUnits": null,
+  "displayChoices": null
+}

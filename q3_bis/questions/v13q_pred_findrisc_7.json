@@ -12,16 +12,6 @@
   "oid": "v13q_pred_findrisc_7",
   "scale": null,
   "scores": [
-    {
-      "conditions": "v13q_pred_findrisc_7 == 5",
-      "tagOID": "tag_findrisk",
-      "value": 5
-    },
-    {
-      "conditions": "v13q_pred_findrisc_7 == 0",
-      "tagOID": "tag_findrisk",
-      "value": 0
-    }
   ],
   "text": "Vous a-t-on déjà découvert un taux de sucre sanguin élevé ?",
   "title": "Vous a-t-on déjà découvert un taux de sucre sanguin élevé ?",

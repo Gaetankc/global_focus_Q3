@@ -12,16 +12,6 @@
   "oid": "v13q_pred_findrisc_5",
   "scale": null,
   "scores": [
-    {
-      "conditions": "v13q_pred_findrisc_5 == 0",
-      "tagOID": "tag_findrisk",
-      "value": 0
-    },
-    {
-      "conditions": "v13q_pred_findrisc_5 == 1",
-      "tagOID": "tag_findrisk",
-      "value": 1
-    }
   ],
   "text": "Combien de fois mangez-vous des légumes et des fruits ?",
   "title": "Combien de fois mangez-vous des légumes et des fruits ?",

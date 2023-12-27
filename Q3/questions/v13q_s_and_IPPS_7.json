@@ -1,0 +1,67 @@
+{
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais"
+    },
+    {
+      "code": "1",
+      "text": "Environ 1 fois sur 5"
+    },
+    {
+      "code": "2",
+      "text": "Environ 1 fois sur 3"
+    },
+    {
+      "code": "3",
+      "text": "Environ 1 fois sur 2"
+    },
+    {
+      "code": "4",
+      "text": "Environ 2 fois sur 3"
+    },
+    {
+      "code": "5",
+      "text": "Presque toujours"
+    }
+  ],
+  "oid": "v13q_s_and_IPPS_7",
+  "scale": null,
+  "scores": [
+    {
+      "conditions": "v13q_s_and_IPPS_7 == 0",
+      "tagOID": "tag_IPPS",
+      "value": 0
+    },
+    {
+      "conditions": "v13q_s_and_IPPS_7 == 1",
+      "tagOID": "tag_IPPS",
+      "value": 1
+    },
+    {
+      "conditions": "v13q_s_and_IPPS_7 == 2",
+      "tagOID": "tag_IPPS",
+      "value": 2
+    },
+    {
+      "conditions": "v13q_s_and_IPPS_7 == 3",
+      "tagOID": "tag_IPPS",
+      "value": 3
+    },
+    {
+      "conditions": "v13q_s_and_IPPS_7 == 3",
+      "tagOID": "tag_IPPS",
+      "value": 3
+    },
+    {
+      "conditions": "v13q_s_and_IPPS_7 == 5",
+      "tagOID": "tag_IPPS",
+      "value": 5
+    }
+  ],
+  "text": "Au cours du dernier mois écoulé, combien de fois par nuit, en moyenne, vous êtes-vous levé pour uriner (entre le moment de votre coucher le soir et celui de votre lever définitif le matin) ?",
+  "title": "Au cours du dernier mois écoulé, combien de fois par nuit, en moyenne, vous êtes-vous levé pour uriner (entre le moment de votre coucher le soir et celui de votre lever définitif le matin) ?",
+  "type": "SINGLE_CHOICE",
+  "durationUnits": null,
+  "displayChoices": null
+}

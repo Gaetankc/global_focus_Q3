@@ -1,0 +1,31 @@
+{
+  "choices": [
+    {
+      "code": "0",
+      "text": "Non"
+    },
+    {
+      "code": "1",
+      "text": "Oui"
+    }
+  ],
+  "oid": "v13q_pn_pred_bpco_3",
+  "scale": null,
+  "scores": [
+    {
+      "conditions": "v13q_pn_pred_bpco_3 == 0",
+      "tagOID": "tag_bpco",
+      "value": 0
+    },
+    {
+      "conditions": "v13q_pn_pred_bpco_3 == 1",
+      "tagOID": "tag_bpco",
+      "value": 1
+    }
+  ],
+  "text": "Êtes-vous plus facilement essoufflé que les personnes de votre âge ?",
+  "title": "Êtes-vous plus facilement essoufflé que les personnes de votre âge ?",
+  "type": "SINGLE_CHOICE",
+  "durationUnits": null,
+  "displayChoices": null
+}

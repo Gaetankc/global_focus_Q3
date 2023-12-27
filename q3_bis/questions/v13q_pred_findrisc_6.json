@@ -12,16 +12,6 @@
   "oid": "v13q_pred_findrisc_6",
   "scale": null,
   "scores": [
-    {
-      "conditions": "v13q_pred_findrisc_6 == 2",
-      "tagOID": "tag_findrisk",
-      "value": 2
-    },
-    {
-      "conditions": "v13q_pred_findrisc_6 == 0",
-      "tagOID": "tag_findrisk",
-      "value": 0
-    }
   ],
   "text": "Vous a-t-on déjà prescrit des médicaments contre l’hypertension artérielle ?",
   "title": "Vous a-t-on déjà prescrit des médicaments contre l’hypertension artérielle ?",

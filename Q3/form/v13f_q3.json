@@ -17,7 +17,7 @@
       "reportDiagnostics": [],
       "reports": {
         "preventive": "",
-        "predictive": "### Rapport Prédictif ### ### Patient:  Mr/Mme {{patient_firstname}} {{patient_lastname}} ({{patient_age}}), né(e) le {{patient_dateofbirth}} ### \n\n ** Santé Psychiatrique ** (troubles anxieux, trouble dépressif (majeur ou chronique), dépression bipolaire, suicide, trouble psychoJque (type schizophrénie))\n - Antécédents psychiatriques 1er degré : {{question_v13_q_s_psy_atcd_1_answer}} \n - Antécédents psychiatriques 2ème degré : {{question_v13_q_s_psy_atcd_2_answer}} \n\n ** Santé gastro-entérologique ** (cancer de l’estomac, du côlon, du pancréas, maladie de Crohn, recto-colite-hémorragique) \n - Antécédents de maladies gastro-entérologiques 1er degré : {{question_v13_q_s_dig_atcd_1_answer}} \n - Antécédents de maladies gastro-entérologiques 2ème degré : {{question_v13_q_s_dig_atcd_2_answer}} \n\n ** Santé métabolique ** (diabète de type1 et 2, obésité, cholestérol , triglycérides et acide urique) \n - Antécédents de maladies endocriniennes de 1er degré : {{question_v13_q_s_endo_atcd_1_answer}} \n - Antécédents de maladies endocriniennes de 2ème degré : {{question_v13_q_s_endo_atcd_2_answer}} \n - Risque à 10 ans de diabète (FindRisk) : TODO \n {{#question_v13_q_s_gyn_atcd_1_answer}} ** Santé gynécologique ** (cancer du sein, ovaire, endomètre) \n - Antécédents gynécologiques 1er degré : {{question_v13_q_s_gyn_atcd_1_answer}} \n - Antécédents gynécologiques 2ème degré : {{question_v13_q_s_gyn_atcd_2_answer}} \n - Risque de survenue de fractures ostéoporoQque à 10 ans (FRAX) : TODO \n {{/question_v13_q_s_gyn_atcd_1_answer}} {{#question_v13_q_s_and_atcd_1_answer}} ** Santé andrologique ** \n - Antécédents cancer de la prostate 1er degré : {{question_v13_q_s_and_atcd_1_answer}} \n - Antécédents cancer de la prostate 2ème degré : {{question_v13_q_s_and_atcd_2_answer}} \n - Score IPPS (International Prostate Score Symptom) évaluant le risque prostatique : {{diagnostic_diagnostic_IPSS}} \n {{/question_v13_q_s_and_atcd_1_answer}} ** Santé cardio-vasculaire ** (HTA, infarctus du myocarde, AVC, artérite, embolie pulmonaire, phlébites, cardiomyopathie) \n - Antécédents cardio-vasculaire 1er degré : {{question_v13_q_s_cv_atcd_1_answer}} \n - Antécédents cardio-vasculaire 2ème degré : {{question_v13_q_s_cv_atcd_2_answer}} \n - Évaluation du risque cardio vasculaire global : Barré sur le pdf (rcvg) \n\n ** Santé de l’appareil pulmonaire ** \n - Antécédents d’asthme 1er degré : {{question_v13q_s_pn_atcd_1_answer}} \n - Antécédents d’asthme 2ème degré : {{question_v13q_s_pn_atcd_2_answer}} \n - Dépistage BPCO : {{diagnostic_diag_bpco}} \n - Tabac : {{v13calc_PA}} \n ** Santé urologique ** (cancer du rein, calculs rénaux) \n - Antécédents de maladies urologiques et néphrologiques 1er degré : {{question_v13q_s_un_atcd_1_answer}} \n - Antécédents de maladies urologiques et néphrologiques 2ème degré : {{question_v13q_s_un_atcd_2_answer}} \n ** Santé neurologique ** (Parkinson , maladie neurodégénéraJve, migraines, cancer du cerveau) \n - Antécédents de maladies neurologiques 1er degré : {{question_v13q_s_n_atcd_1_answer}} \n - Antécédents de maladies neurologiques 2ème degré : {{question_v13q_s_n_atcd_2_answer}} \n - Risque de troubles cognitifs : DOIT ETRE TROUVE \n\n ** Santé rhumatologique ** (PR,SA, rhumaJsme psoriasique, pseudo-arthrite rhizomélique) \n - Antécédents de maladies rhumatologiques 1er degré : {{question_v13q_s_rms_atcd_1_answer}} \n - Antécédents de maladies rhumatologiques 2ème degré : {{question_v13q_s_rms_atcd_2_answer}} \n - Risque de survenue de fractures ostéoporoQque à 10 ans : {{question_v13q_s_prev_gyn_osteoporose_frax_answer}}"
+        "predictive": "### Rapport Prédictif ### ### Patient:  Mr/Mme {{patient_firstname}} {{patient_lastname}} ({{patient_age}}), né(e) le {{patient_dateofbirth}} ### \n\n ** Santé Psychiatrique ** (troubles anxieux, trouble dépressif (majeur ou chronique), dépression bipolaire, suicide, trouble psychoJque (type schizophrénie))\n - Antécédents psychiatriques 1er degré : {{question_v13_q_s_psy_atcd_1_answer}} \n - Antécédents psychiatriques 2ème degré : {{question_v13_q_s_psy_atcd_2_answer}} \n\n ** Santé gastro-entérologique ** (cancer de l’estomac, du côlon, du pancréas, maladie de Crohn, recto-colite-hémorragique) \n - Antécédents de maladies gastro-entérologiques 1er degré : {{question_v13_q_s_dig_atcd_1_answer}} \n - Antécédents de maladies gastro-entérologiques 2ème degré : {{question_v13_q_s_dig_atcd_2_answer}} \n\n ** Santé métabolique ** (diabète de type1 et 2, obésité, cholestérol , triglycérides et acide urique) \n - Antécédents de maladies endocriniennes de 1er degré : {{question_v13_q_s_endo_atcd_1_answer}} \n - Antécédents de maladies endocriniennes de 2ème degré : {{question_v13_q_s_endo_atcd_2_answer}} \n - Risque à 10 ans de diabète (FindRisk) : {{diagnostic_diagnostic_findrisk}} \n {{#question_v13_q_s_gyn_atcd_1_answer}} ** Santé gynécologique ** (cancer du sein, ovaire, endomètre) \n - Antécédents gynécologiques 1er degré : {{question_v13_q_s_gyn_atcd_1_answer}} \n - Antécédents gynécologiques 2ème degré : {{question_v13_q_s_gyn_atcd_2_answer}} \n - Risque de survenue de fractures ostéoporoQque à 10 ans (FRAX) : TODO \n {{/question_v13_q_s_gyn_atcd_1_answer}} {{#question_v13_q_s_and_atcd_1_answer}} ** Santé andrologique ** \n - Antécédents cancer de la prostate 1er degré : {{question_v13_q_s_and_atcd_1_answer}} \n - Antécédents cancer de la prostate 2ème degré : {{question_v13_q_s_and_atcd_2_answer}} \n - Score IPPS (International Prostate Score Symptom) évaluant le risque prostatique : {{diagnostic_diagnostic_IPPS}} \n {{/question_v13_q_s_and_atcd_1_answer}} ** Santé cardio-vasculaire ** (HTA, infarctus du myocarde, AVC, artérite, embolie pulmonaire, phlébites, cardiomyopathie) \n - Antécédents cardio-vasculaire 1er degré : {{question_v13_q_s_cv_atcd_1_answer}} \n - Antécédents cardio-vasculaire 2ème degré : {{question_v13_q_s_cv_atcd_2_answer}} \n - Évaluation du risque cardio vasculaire global : Barré sur le pdf (rcvg) \n\n ** Santé de l’appareil pulmonaire ** \n - Antécédents d’asthme 1er degré : {{question_v13q_s_pn_atcd_1_answer}} \n - Antécédents d’asthme 2ème degré : {{question_v13q_s_pn_atcd_2_answer}} \n - Dépistage BPCO : {{diagnostic_diagnostic_BPCO}} \n - Tabac : {{v13calc_PA}} \n ** Santé urologique ** (cancer du rein, calculs rénaux) \n - Antécédents de maladies urologiques et néphrologiques 1er degré : {{question_v13q_s_un_atcd_1_answer}} \n - Antécédents de maladies urologiques et néphrologiques 2ème degré : {{question_v13q_s_un_atcd_2_answer}} \n ** Santé neurologique ** (Parkinson , maladie neurodégénéraJve, migraines, cancer du cerveau) \n - Antécédents de maladies neurologiques 1er degré : {{question_v13q_s_n_atcd_1_answer}} \n - Antécédents de maladies neurologiques 2ème degré : {{question_v13q_s_n_atcd_2_answer}} \n - Risque de troubles cognitifs : {{diagnostic_qpc}} \n\n ** Santé rhumatologique ** (PR,SA, rhumaJsme psoriasique, pseudo-arthrite rhizomélique) \n - Antécédents de maladies rhumatologiques 1er degré : {{question_v13q_s_rms_atcd_1_answer}} \n - Antécédents de maladies rhumatologiques 2ème degré : {{question_v13q_s_rms_atcd_2_answer}} \n - Risque de survenue de fractures ostéoporoQque à 10 ans : {{question_v13q_s_prev_gyn_osteoporose_frax_answer}}"
       }
     },
     "linkedForm": "v13f_complet_q2",
@@ -29,8 +29,133 @@
           "dépendance probable": "tag_benzo >= 7"
         },
         "oid": "diagnostic_benzo"
+      },
+      {
+        "conditions": {
+          "légers": "tag_IPPS <= 7",
+          "modérés": "tag_IPPS >= 8 && tag_IPPS <= 19",
+          "sévères": "tag_IPPS >= 20"
+        },
+        "oid": "diagnostic_IPPS"
+      },
+      {
+        "conditions": {
+          "légers": "tag_IPPS <= 7",
+          "modérés": "tag_IPPS >= 8 && tag_IPPS <= 19",
+          "sévères": "tag_IPPS >= 20"
+        },
+        "oid": "diagnostic_IPPS"
+      },
+      {
+        "conditions": {
+          "Pas de suspicion de BPCO": "tag_bpco <= 2",
+          "Une BPCO est possible, une spirométrie et une consultaJon chez le pneumologue sont conseillées. Un dépistage précoce de la BPCO permexra de prévenir des lésions pulmonaires ultérieures.": "tag_bpco >= 3"
+        },
+        "oid": "diagnostic_BPCO"
+      },
+      {
+        "conditions": {
+          "Vous n’avez pas ou peu de risque de devenir diabéJque. Une prévenJon parJculière n’est pas nécessaire. Néanmoins, le recours à une alimentaJon saine et une acJvité physique régulière ne pourra pas vous nuire.": "tag_findrisk <= 7",
+          "Une certaine prudence sera de mise, même si votre risque de devenir diabéJque n’est que légèrement accru. Si vous voulez être sûr(e), veuillez observer les règles suivantes : • En cas d’obésité, essayez de perdre 7% de votre poids • PraJquez une acJvité physique avec légère transpiraJon pendant 30 minutes au moins 5 jours par semaine • Limitez la consommaJon de graisses à 35% des calories totales de votre alimentaJon. • Les graisses saturées (graisses animales) ne dépasseront pas 10% des calories de votre alimentaJon • Consommez par jour 30 grammes de fibres alimentaires (contenues dans les produits à base de céréales complètes, les légumes et les fruits)": "tag_findrisk <= 7 && tag_findrisk >= 11",
+          "Si vous tombez dans cexe catégorie de risque, il ne faudra pas tarder à mexre en œuvre les moyens de prévenJon. Vous pouvez avoir recours vous-mêmes aux informaJons et recommandaJons praJques d’experts pour changer vos habitudes de vie. Si vous n’y parvenez pas tout seul, ayez recours à une aide professionnelle.": "tag_findrisk <= 12 && tag_findrisk >= 14",
+          "Vous êtes réellement en danger. Un Jers des paJents présentant ce grade de risque deviennent diabéJques au courant des 10 prochaines années. Ne sous-esJmez pas cexe situaJon. Cela pourrait avoir des suites fâcheuses. Ayez recours à de l’aide professionnelle et parlez-en à votre médecin.": "tag_findrisk <= 15 && tag_findrisk >= 20",
+          "La nécessité d’agir est imminente, car il se peut que vous soyez déjà axeint de diabète. Cela est vrai pour 35% des personnes qui totalisent un score de plus de 20 points. Vous pouvez faire tester votre glycémie au bout du doigt en guise d’informaJon complémentaire. Ce test ne remplace cependant pas un diagnosJc complet au laboratoire servant à exclure un diabète déjà installé. Une visite médicale est indispensable dans les meilleurs délais": "tag_findrisk > 20"
+        },
+        "oid": "diagnostic_findrisk"
+      },
+      {
+        "conditions": {
+          "Surveillance simple (réévaluation en cas de plaintes cognitives persistantes)": "tag_findrisk <= 3",
+          "Bilan ou surveillance à instituer": "S_N_PREDICTIv13f_QPC > 3"
+        },
+        "oid": "diagnostic_qpc"
       }
+      
     ],
     "reportingTrees": [
+      {
+        "category": "HEALTH",
+        "reportingNode": {
+          "type": "SCORE",
+          "hideNodeIfEmpty": true,
+          "hideForPatient": false,
+          "tagOID": "tag_benzo",
+          "displayScore": false,
+          "ranges": [
+            {
+              "min": 0,
+              "max": 0,
+              "text": "BENZO",
+              "color": "109900"
+            },
+            {
+              "min": 1,
+              "max": 1,
+              "text": "BENZO",
+              "color": "FFFF00"
+            },
+            {
+              "min": 2,
+              "max": 2,
+              "text": "BENZO",
+              "color": "FFB200"
+            },
+            {
+              "min": 3,
+              "max": 3,
+              "text": "BENZO",
+              "color": "FF0000"
+            },
+            {
+              "min": 4,
+              "max": 100,
+              "text": "BENZO",
+              "color": "990000"
+            }
+          ],
+          "diagnosticOID": null,
+          "diagnosticTitle": null,
+          "diagnostics": null,
+          "children": [
+            {
+              "type": "SCORE",
+              "hideNodeIfEmpty": true,
+              "hideForPatient": false,
+              "tagOID": "tag_IPPS",
+              "displayScore": false,
+              "ranges": [
+                {
+                  "min": 0,
+                  "max": 3,
+                  "text": "IPPS",
+                  "color": "109900"
+                },
+                {
+                  "min": 4,
+                  "max": 7,
+                  "text": "IPPS",
+                  "color": "FFFF00"
+                },
+                {
+                  "min": 8,
+                  "max": 19,
+                  "text": "IPPS",
+                  "color": "FFB200"
+                },
+                {
+                  "min": 20,
+                  "max": 35,
+                  "text": "IPPS",
+                  "color": "FF0000"
+                }
+              ],
+              "diagnosticOID": null,
+              "diagnosticTitle": null,
+              "diagnostics": null,
+              "children": []
+            }
+          ]
+        }
+      }
     ]
   }

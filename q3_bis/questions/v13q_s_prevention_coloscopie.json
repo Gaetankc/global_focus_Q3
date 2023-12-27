@@ -1,0 +1,29 @@
+{
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais"
+    },
+    {
+      "code": "1",
+      "text": "Moins de 3 ans"
+    },
+    {
+      "code": "2",
+      "text": "Entre 3 ans et 5 ans"
+    },
+    {
+      "code": "3",
+      "text": "Plus de 5 ans"
+    }
+  ],
+  "oid": "v13q_s_prevention_coloscopie",
+  "scale": null,
+  "scores": [
+  ],
+  "text": "Quand avez-vous fait une coloscopie pour la dernière fois ?",
+  "title": "Quand avez-vous fait une coloscopie pour la dernière fois ?",
+  "type": "SINGLE_CHOICE",
+  "durationUnits": null,
+  "displayChoices": null
+}

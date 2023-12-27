@@ -1,0 +1,41 @@
+{
+  "choices": [
+    {
+      "code": "0",
+      "text": "Moins de 6 mois"
+    },
+    {
+      "code": "1",
+      "text": "Entre 6 mois et 1 an"
+    },
+    {
+      "code": "2",
+      "text": "Entre 1 et 2 ans"
+    },
+    {
+      "code": "3",
+      "text": "Entre 2 ans et 3 ans"
+    },
+    {
+      "code": "4",
+      "text": "Entre 3 ans et 5 ans"
+    },
+    {
+      "code": "5",
+      "text": "Plus de 5 ans"
+    },
+    {
+      "code": "6",
+      "text": "Je n'ai jamais consulté de dentiste"
+    }
+  ],
+  "oid": "v13q_s_sto_prevention_consult",
+  "scale": null,
+  "scores": [
+  ],
+  "text": "Quand avez-vous consulté votre dentiste pour la dernière fois ? (une seule réponse)",
+  "title": "Quand avez-vous consulté votre dentiste pour la dernière fois ? (une seule réponse)",
+  "type": "SINGLE_CHOICE",
+  "durationUnits": null,
+  "displayChoices": null
+}

@@ -1,0 +1,33 @@
+{
+  "choices": [
+    {
+      "code": "0",
+      "text": "Moins d'un an"
+    },
+    {
+      "code": "1",
+      "text": "Entre 1 et 2 ans"
+    },
+    {
+      "code": "2",
+      "text": "Entre 2 ans et 5 ans"
+    },
+    {
+      "code": "3",
+      "text": "Plus de 5 ans"
+    },
+    {
+      "code": "4",
+      "text": "Jamais"
+    }
+  ],
+  "oid": "v13q_s_orl_prevention_consult",
+  "scale": null,
+  "scores": [
+  ],
+  "text": "Quand avez-vous consulté un médecin ORL pour contrôler votre audition ?",
+  "title": "Quand avez-vous consulté un médecin ORL pour contrôler votre audition ?",
+  "type": "SINGLE_CHOICE",
+  "durationUnits": null,
+  "displayChoices": null
+}

@@ -1,0 +1,29 @@
+{
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais"
+    },
+    {
+      "code": "1",
+      "text": "Moins d’un an"
+    },
+    {
+      "code": "2",
+      "text": "Entre 1 et 2 ans"
+    },
+    {
+      "code": "3",
+      "text": "Plus de 2 ans"
+    }
+  ],
+  "oid": "v13q_s_preventif_biologie",
+  "scale": null,
+  "scores": [
+  ],
+  "text": "Quand avez-vous fait une analyse biologique sanguine (prise de sang) pour la dernière fois ?",
+  "title": "Quand avez-vous fait une analyse biologique sanguine (prise de sang) pour la dernière fois ?",
+  "type": "SINGLE_CHOICE",
+  "durationUnits": null,
+  "displayChoices": null
+}

@@ -1,0 +1,30 @@
+{
+  "choices": [
+    {
+      "code": "0",
+      "text": "Asthme"
+    },
+    {
+      "code": "1",
+      "text": "Cancer broncho-pulmonaire"
+    },
+    {
+      "code": "2",
+      "text": "Je ne sais pas",
+      "exclusive": true
+    },
+    {
+      "code": "3",
+      "text": "Aucun",
+      "exclusive": true
+    }
+  ],
+  "oid": "v13q_s_pn_atcd_1",
+  "scores": [
+  ],
+  "text": "Antécédents familiaux pulmonaires du 1er degré : Est-ce qu’un ou plusieurs membres de votre famille proche (mère, père, enfant, frère et sœur) présente(nt) actuellement ou présentai(en)t une ou plusieurs de ces maladies ? (Plusieurs choix possibles sauf si vous répondez «aucun»ou«je ne sais pas »)",
+  "title": "Antécédents familiaux pulmonaires du 1er degré : Est-ce qu’un ou plusieurs membres de votre famille proche (mère, père, enfant, frère et sœur) présente(nt) actuellement ou présentai(en)t une ou plusieurs de ces maladies ? (Plusieurs choix possibles sauf si vous répondez «aucun»ou«je ne sais pas »)",
+  "type": "MULTI_CHOICES",
+  "durationUnits": null,
+  "displayChoices": null
+}

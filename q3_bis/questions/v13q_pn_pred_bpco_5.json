@@ -12,16 +12,6 @@
   "oid": "v13q_pn_pred_bpco_5",
   "scale": null,
   "scores": [
-    {
-      "conditions": "v13q_pn_pred_bpco_5 == 0",
-      "tagOID": "tag_bpco",
-      "value": 0
-    },
-    {
-      "conditions": "v13q_pn_pred_bpco_5 == 1",
-      "tagOID": "tag_bpco",
-      "value": 1
-    }
   ],
   "text": "Avez-vous fumé ou fumez-vous ou avez-vous été exposé de manière prolongée ou répétée à des gaz, poussières, fumées, vapeurs dans le cadre de votre travail ?",
   "title": "Avez-vous fumé ou fumez-vous ou avez-vous été exposé de manière prolongée ou répétée à des gaz, poussières, fumées, vapeurs dans le cadre de votre travail ?",

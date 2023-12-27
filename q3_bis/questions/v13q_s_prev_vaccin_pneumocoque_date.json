@@ -1,0 +1,13 @@
+{
+  "oid": "v13q_s_prev_vaccin_pneumocoque_date",
+  "scale": {
+    "max": 100,
+    "min": 0,
+    "step": 1
+  },
+  "text": "Quel âge aviez-vous lors du dernier rappel ?",
+  "title": "Quel âge aviez-vous lors du dernier rappel ?",
+  "type": "ANALOG_SCALE",
+  "durationUnits": null,
+  "displayChoices": null
+}

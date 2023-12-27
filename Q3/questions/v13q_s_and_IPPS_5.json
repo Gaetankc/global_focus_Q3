@@ -1,0 +1,67 @@
+{
+  "choices": [
+    {
+      "code": "0",
+      "text": "Jamais"
+    },
+    {
+      "code": "1",
+      "text": "Environ 1 fois sur 5"
+    },
+    {
+      "code": "2",
+      "text": "Environ 1 fois sur 3"
+    },
+    {
+      "code": "3",
+      "text": "Environ 1 fois sur 2"
+    },
+    {
+      "code": "4",
+      "text": "Environ 2 fois sur 3"
+    },
+    {
+      "code": "5",
+      "text": "Presque toujours"
+    }
+  ],
+  "oid": "v13q_s_and_IPPS_5",
+  "scale": null,
+  "scores": [
+    {
+      "conditions": "v13q_s_and_IPPS_5 == 0",
+      "tagOID": "tag_IPPS",
+      "value": 0
+    },
+    {
+      "conditions": "v13q_s_and_IPPS_5 == 1",
+      "tagOID": "tag_IPPS",
+      "value": 1
+    },
+    {
+      "conditions": "v13q_s_and_IPPS_5 == 2",
+      "tagOID": "tag_IPPS",
+      "value": 2
+    },
+    {
+      "conditions": "v13q_s_and_IPPS_5 == 3",
+      "tagOID": "tag_IPPS",
+      "value": 3
+    },
+    {
+      "conditions": "v13q_s_and_IPPS_5 == 3",
+      "tagOID": "tag_IPPS",
+      "value": 3
+    },
+    {
+      "conditions": "v13q_s_and_IPPS_5 == 5",
+      "tagOID": "tag_IPPS",
+      "value": 5
+    }
+  ],
+  "text": "Au cours du dernier mois, avec quelle fréquence avez-vous eu une diminution de la taille ou de la force du jet d'urine ?",
+  "title": "Au cours du dernier mois, avec quelle fréquence avez-vous eu une diminution de la taille ou de la force du jet d'urine ?",
+  "type": "SINGLE_CHOICE",
+  "durationUnits": null,
+  "displayChoices": null
+}
