@@ -1,10 +1,6 @@
 {
   "choices": [
     {
-      "code": "0",
-      "text": "Vous avez été ménopausée avant l’âge de 40 ans"
-    },
-    {
       "code": "1",
       "text": "Vous avez des antécédents personnels (c’est à dire vous-même) de fracture osseuse survenue sans traumaJsme violent et en dehors de tumeur osseuse"
     },
@@ -22,32 +18,27 @@
       "exclusive": true
     }
   ],
-  "oid": "v13q_s_prev_gyn_osteoporose_frax",
+  "oid": "v13q_s_prev_and_osteoporose_frax",
   "scale": null,
   "scores": [
     {
-      "conditions": "v13q_s_prev_gyn_osteoporose_frax == \"0\"",
-      "tagOID": "tag_gyn_osteoporose_frax",
-      "value": 0
-    },
-    {
-      "conditions": "v13q_s_prev_gyn_osteoporose_frax == \"1\"",
-      "tagOID": "tag_gyn_osteoporose_frax",
+      "conditions": "v13q_s_prev_and_osteoporose_frax == \"1\"",
+      "tagOID": "tag_and_osteoporose_frax",
       "value": 1
     },
     {
-      "conditions": "v13q_s_prev_gyn_osteoporose_frax == \"2\"",
-      "tagOID": "tag_gyn_osteoporose_frax",
+      "conditions": "v13q_s_prev_and_osteoporose_frax == \"2\"",
+      "tagOID": "tag_and_osteoporose_frax",
       "value": 2
     },
     {
-      "conditions": "v13q_s_prev_gyn_osteoporose_frax == \"3\"",
-      "tagOID": "tag_gyn_osteoporose_frax",
+      "conditions": "v13q_s_prev_and_osteoporose_frax == \"3\"",
+      "tagOID": "tag_and_osteoporose_frax",
       "value": 3
     },
     {
-      "conditions": "v13q_s_prev_gyn_osteoporose_frax == \"4\"",
-      "tagOID": "tag_gyn_osteoporose_frax",
+      "conditions": "v13q_s_prev_and_osteoporose_frax == \"4\"",
+      "tagOID": "tag_and_osteoporose_frax",
       "value": 4
     }
   ],

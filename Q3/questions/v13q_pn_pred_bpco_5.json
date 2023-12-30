@@ -13,12 +13,12 @@
   "scale": null,
   "scores": [
     {
-      "conditions": "v13q_pn_pred_bpco_5 == 0",
+      "conditions": "v13q_pn_pred_bpco_5 == \"0\"",
       "tagOID": "tag_bpco",
       "value": 0
     },
     {
-      "conditions": "v13q_pn_pred_bpco_5 == 1",
+      "conditions": "v13q_pn_pred_bpco_5 == \"1\"",
       "tagOID": "tag_bpco",
       "value": 1
     }
