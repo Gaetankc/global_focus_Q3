@@ -475,7 +475,15 @@
       {
         "level": 1,
         "question": "v13q_s_sto_prevention_motif_consult",
-        "isGlobal": true
+        "isGlobal": true,
+        "trigger": {
+          "conditions": "!(!(\"6\" in v13q_s_sto_prevention_consult))",
+          "scope": "PATIENT_SCOPE",
+          "defaultValues": {
+            "v13q_infos_generales_000": "1",
+            "v13q_infos_generales_000_0": 49
+          }
+        }
       },
       {
         "level": 1,
