@@ -16,7 +16,7 @@
     "formReport": {
       "reportDiagnostics": [],
       "reports": {
-        "preventive": "### Rapport Préventif \n ### Patient:  Mr/Mme {{patient_firstname}} {{patient_lastname}} ({{patient_age}}), né(e) le {{patient_dateofbirth}} ### \n\n **Vie Psychique**\n - Idées suicidaires : {{question_v13q_s_psy_symp_depression_BDI9_answer}} \n - Dépendance à une aide/sommeil : {{question_v13q_VSomAideDependance_answer}} {{question_v13q_VSomAideType_answer}} \n - Trouble de la Personnalité : {{question_v13q_Q1_Psychiatrie_005_answer}} \n - Suspicion d’une obsession d’une dysmorphie corporelle : {{diagnostic_diagnosticq3_BDD}} \n - Suspicion d’un TCA : {{diagnostic_diagnosticq3_Scoff}} \n\n**Exploration digestive**\n {{#question_v13q_s_prevention_hemocult_answer}} - Hémoccult : {{question_v13q_s_prevention_hemocult_answer}} \n {{/question_v13q_s_prevention_hemocult_answer}} - Fibroscopie OGD : {{question_v13q_s_prevention_fibroscopie_answer}} \n - Coloscopie : {{question_v13q_s_prevention_coloscopie_answer}} \n\n {{#question_v13_q_s_gyn_atcd_1_answer}}**Vie gynécologique**\n - Dernier dépistage du cancer du col de l’utérus : {{question_v13q_s_gyn_prevention_frottis_answer}} \n - Dernier dépistage du cancer du sein : {{question_v13q_s_gyn_prevention_mammographie_answer}} \n - Dernière consultation gynécologique : {{question_v13q_s_gyn_prevention_consultation_answer}} \n - Motif de la dernière consultaQon gynécologique : {{question_v13q_s_gyn_prevention_consultation_raison_answer}} {{/question_v13_q_s_gyn_atcd_1_answer}}**Hématologie**\n - Transfusion, produits dérivés du sang : {{question_v13q_s_he_im_prevention_transfusion_answer}} \n - Dernière biologie sanguine : {{question_v13q_s_preventif_biologie_answer}} \n**Exploration cardio-vasculaire**\n - Electro-cardiogramme : {{question_v13q_s_cv_prevention_ecg_answer}} \n - Echo-doppler cardiaque : {{question_v13q_s_cv_prevention_echo_coeur_answer}} \n - Echo-doppler des vaisseaux du cou : {{question_v13q_s_cv_prevention_echo_tsao_answer}} \n - Épreuve d’effort cardiaque : {{question_v13q_s_cv_prevention_epreuve_effort_answer}} \n\n**Dentiste**\n - Visite dentiste : {{question_v13q_s_sto_prevention_consult_answer}} \n - Motif de visite chez dentiste : {{question_v13q_s_sto_prevention_motif_consult_answer}} \n\n**Exploration organes sensoriels**\n - Visite dermatologue pour contrôler la peau : {{question_v13q_s_der_prevention_consult_answer}} \n - Profil dermatologique : {{question_v13q_s_der_prevention_consult_peau_risque_answer}} \n - Visite ORL pour audition : {{question_v13q_s_orl_prevention_consult_answer}} \n - Visite ophtalmologiste : {{question_v13q_s_oph_prevention_consult_answer}} {{#question_v13q_s_oph_symp_answer}} \n - Conseil : consultation ophtalmologue {{/question_v13q_s_oph_symp_answer}} \n\n**Vaccinations**\n - Diphtérie : {{question_v13q_s_prev_vaccin_diphterie_answer}} {{#question_v13q_s_prev_vaccin_diphterie_date_answer}} Dernier rappel en {{question_v13q_s_prev_vaccin_diphterie_date_answer}} {{/question_v13q_s_prev_vaccin_diphterie_date_answer}} \n - Tétanos : {{question_v13q_s_prev_vaccin_tetanos_answer}} {{#question_v13q_s_prev_vaccin_tetanos_date_answer}} Dernier rappel en {{question_v13q_s_prev_vaccin_tetanos_date_answer}} {{/question_v13q_s_prev_vaccin_tetanos_date_answer}} \n - Poliomyélite : {{question_v13q_s_prev_vaccin_poliomyelite_answer}} {{#question_v13q_s_prev_vaccin_poliomyelite_date_answer}} Dernier rappel en {{question_v13q_s_prev_vaccin_poliomyelite_date_answer}} {{/question_v13q_s_prev_vaccin_poliomyelite_date_answer}} \n - Coqueluche : {{question_v13q_s_prev_vaccin_coqueluche_answer}} {{#question_v13q_s_prev_vaccin_coqueluche_date_answer}} Dernier rappel en {{question_v13q_s_prev_vaccin_coqueluche_date_answer}} {{/question_v13q_s_prev_vaccin_coqueluche_date_answer}} \n - Hépatite B : {{question_v13q_s_prev_vaccin_hepatite_b_answer}} {{#question_v13q_s_prev_vaccin_hepatite_b_date_answer}} Dernier rappel en {{question_v13q_s_prev_vaccin_hepatite_b_date_answer}} {{/question_v13q_s_prev_vaccin_hepatite_b_date_answer}} \n - Pneumocoque : {{question_v13q_s_prev_vaccin_pneumocoque_answer}} {{#question_v13q_s_prev_vaccin_pneumocoque_date_answer}} Dernier rappel en {{question_v13q_s_prev_vaccin_pneumocoque_date_answer}} {{/question_v13q_s_prev_vaccin_pneumocoque_date_answer}} \n - Hépatite A : {{question_v13q_s_prev_vaccin_hepatite_a_answer}} {{#question_v13q_s_prev_vaccin_hepatite_a_date_answer}} Dernier rappel en {{question_v13q_s_prev_vaccin_hepatite_a_date_answer}} {{/question_v13q_s_prev_vaccin_hepatite_a_date_answer}} \n - Grippe : {{question_v13q_s_prev_vaccin_grippe_answer}} \n - COVID : {{question_v13q_s_prev_vaccin_covid_answer}} \n\n {{#question_v13q_VFamilleHumaineCouple_answer}}**Vie de couple**\n - Relation de couple : {{question_v13q_VFamilleHumaineCouple_answer}} \n - Violences conjugales : {{question_v13calc_HITS_answer}} \n - Violences physiques conjugales (HITS) : {{question_v13q_VFamilleHumaineCoupleHITS1_answer}} \n - Violences sexuelles : {{question_v13q_VFamilleHumaineCoupleHITS5_answer}} {{/question_v13q_VFamilleHumaineCouple_answer}} {{#question_v13q_q2_contexte_de_vie_epice1_answer}} \n\n**Précarité**\n - Risque de précarité (questionnaire EPICES) : {{diagnostic_diagnosticq3_epice}} {{/question_v13q_q2_contexte_de_vie_epice1_answer}}",
+        "preventive": "### Rapport Préventif \n ### Patient:  Mr/Mme {{patient_firstname}} {{patient_lastname}} ({{patient_age}}), né(e) le {{patient_dateofbirth}} ### \n\n **Vie Psychique**\n - Idées suicidaires : {{question_v13q_s_psy_symp_depression_BDI9_answer}} \n - Dépendance à une aide/sommeil : {{question_v13q_VSomAideDependance_answer}} {{question_v13q_VSomAideType_answer}} \n - Trouble de la Personnalité : {{question_v13q_Q1_Psychiatrie_005_answer}} \n - Suspicion d’une obsession d’une dysmorphie corporelle : {{diagnostic_diagnosticq3_BDD}} \n - Suspicion d’un TCA : {{diagnostic_diagnosticq3_Scoff}} \n\n**Exploration digestive**\n {{#question_v13q_s_prevention_hemocult_answer}} - Hémoccult : {{question_v13q_s_prevention_hemocult_answer}} \n {{/question_v13q_s_prevention_hemocult_answer}} - Fibroscopie OGD : {{question_v13q_s_prevention_fibroscopie_answer}} \n - Coloscopie : {{question_v13q_s_prevention_coloscopie_answer}} \n\n {{#question_v13_q_s_gyn_atcd_1_answer}}**Vie gynécologique**\n - Dernier dépistage du cancer du col de l’utérus : {{question_v13q_s_gyn_prevention_frottis_answer}} \n - Dernier dépistage du cancer du sein : {{question_v13q_s_gyn_prevention_mammographie_answer}} \n - Dernière consultation gynécologique : {{question_v13q_s_gyn_prevention_consultation_answer}} \n - Motif de la dernière consultaQon gynécologique : {{question_v13q_s_gyn_prevention_consultation_raison_answer}} {{/question_v13_q_s_gyn_atcd_1_answer}}**Hématologie**\n - Transfusion, produits dérivés du sang : {{question_v13q_s_he_im_prevention_transfusion_answer}} \n - Dernière biologie sanguine : {{question_v13q_s_preventif_biologie_answer}} \n**Exploration cardio-vasculaire**\n - Electro-cardiogramme : {{question_v13q_s_cv_prevention_ecg_answer}} \n - Echo-doppler cardiaque : {{question_v13q_s_cv_prevention_echo_coeur_answer}} \n - Echo-doppler des vaisseaux du cou : {{question_v13q_s_cv_prevention_echo_tsao_answer}} \n - Épreuve d’effort cardiaque : {{question_v13q_s_cv_prevention_epreuve_effort_answer}} \n\n**Dentiste**\n - Visite dentiste : {{question_v13q_s_sto_prevention_consult_answer}} \n - Motif de visite chez dentiste : {{question_v13q_s_sto_prevention_motif_consult_answer}} \n\n**Exploration organes sensoriels**\n - Visite dermatologue pour contrôler la peau : {{question_v13q_s_der_prevention_consult_answer}} \n - Profil dermatologique : {{question_v13q_s_der_prevention_consult_peau_risque_answer}} \n - Visite ORL pour audition : {{question_v13q_s_orl_prevention_consult_answer}} \n - Visite ophtalmologiste : {{question_v13q_s_oph_prevention_consult_answer}} {{#question_v13q_s_oph_symp_answer}} \n - Conseil : consultation ophtalmologue {{/question_v13q_s_oph_symp_answer}} \n\n**Vaccinations**\n - Diphtérie : {{question_v13q_s_prev_vaccin_diphterie_answer}} {{#question_v13q_s_prev_vaccin_diphterie_date_answer}} Dernier rappel en {{question_v13q_s_prev_vaccin_diphterie_date_answer}} {{/question_v13q_s_prev_vaccin_diphterie_date_answer}} \n - Tétanos : {{question_v13q_s_prev_vaccin_tetanos_answer}} {{#question_v13q_s_prev_vaccin_tetanos_date_answer}} Dernier rappel en {{question_v13q_s_prev_vaccin_tetanos_date_answer}} {{/question_v13q_s_prev_vaccin_tetanos_date_answer}} \n - Poliomyélite : {{question_v13q_s_prev_vaccin_poliomyelite_answer}} {{#question_v13q_s_prev_vaccin_poliomyelite_date_answer}} Dernier rappel en {{question_v13q_s_prev_vaccin_poliomyelite_date_answer}} {{/question_v13q_s_prev_vaccin_poliomyelite_date_answer}} \n - Coqueluche : {{question_v13q_s_prev_vaccin_coqueluche_answer}} {{#question_v13q_s_prev_vaccin_coqueluche_date_answer}} Dernier rappel en {{question_v13q_s_prev_vaccin_coqueluche_date_answer}} {{/question_v13q_s_prev_vaccin_coqueluche_date_answer}} \n - Hépatite B : {{question_v13q_s_prev_vaccin_hepatite_b_answer}} {{#question_v13q_s_prev_vaccin_hepatite_b_date_answer}} Dernier rappel en {{question_v13q_s_prev_vaccin_hepatite_b_date_answer}} {{/question_v13q_s_prev_vaccin_hepatite_b_date_answer}} \n - Pneumocoque : {{question_v13q_s_prev_vaccin_pneumocoque_answer}} {{#question_v13q_s_prev_vaccin_pneumocoque_date_answer}} Dernier rappel en {{question_v13q_s_prev_vaccin_pneumocoque_date_answer}} {{/question_v13q_s_prev_vaccin_pneumocoque_date_answer}} \n - Hépatite A : {{question_v13q_s_prev_vaccin_hepatite_a_answer}} {{#question_v13q_s_prev_vaccin_hepatite_a_date_answer}} Dernier rappel en {{question_v13q_s_prev_vaccin_hepatite_a_date_answer}} {{/question_v13q_s_prev_vaccin_hepatite_a_date_answer}} \n - Grippe : {{question_v13q_s_prev_vaccin_grippe_answer}} \n - COVID : {{question_v13q_s_prev_vaccin_covid_answer}} \n\n {{#question_v13q_VFamilleHumaineCouple_answer}}**Vie de couple**\n - Relation de couple : {{question_v13q_VFamilleHumaineCouple_answer}} \n {{#question_v13q_VFamilleHumaineCoupleHITS1_answer}} - Violences conjugales : {{question_v13calc_HITS_answer}} \n  - Violences physiques conjugales (HITS) : {{question_v13q_VFamilleHumaineCoupleHITS1_answer}} \n {{/question_v13q_VFamilleHumaineCoupleHITS1_answer}} {{#question_v13q_VFamilleHumaineCoupleHITS5_answer}} - Violences sexuelles : {{question_v13q_VFamilleHumaineCoupleHITS5_answer}} \n {{/question_v13q_VFamilleHumaineCoupleHITS5_answer}} {{/question_v13q_VFamilleHumaineCouple_answer}} {{#question_v13q_q2_contexte_de_vie_epice1_answer}} \n\n**Précarité**\n - Risque de précarité (questionnaire EPICES) : {{diagnostic_diagnosticq3_epice}} {{/question_v13q_q2_contexte_de_vie_epice1_answer}}",
         "predictive": "### Rapport Prédictif \n ### Patient:  Mr/Mme {{patient_firstname}} {{patient_lastname}} ({{patient_age}}), né(e) le {{patient_dateofbirth}} ### \n\n**Santé Psychiatrique**(troubles anxieux, trouble dépressif (majeur ou chronique), dépression bipolaire, suicide, trouble psychoJque (type schizophrénie))\n - Antécédents psychiatriques 1er degré : {{question_v13_q_s_psy_atcd_1_answer}} \n - Antécédents psychiatriques 2ème degré : {{question_v13_q_s_psy_atcd_2_answer}} \n\n**Santé gastro-entérologique**(cancer de l’estomac, du côlon, du pancréas, maladie de Crohn, recto-colite-hémorragique) \n - Antécédents de maladies gastro-entérologiques 1er degré : {{question_v13q_s_dig_atcd_1_answer}} \n - Antécédents de maladies gastro-entérologiques 2ème degré : {{question_v13q_s_dig_atcd_2_answer}} \n\n**Santé métabolique**(diabète de type1 et 2, obésité, cholestérol , triglycérides et acide urique) \n - Antécédents de maladies endocriniennes de 1er degré : {{question_v13q_s_endo_atcd_1_answer}} \n - Antécédents de maladies endocriniennes de 2ème degré : {{question_v13q_s_endo_atcd_2_answer}} \n - Risque à 10 ans de diabète (FindRisk) : {{diagnostic_diagnostic_findrisk}} \n {{#question_v13_q_s_gyn_atcd_1_answer}}**Santé gynécologique**(cancer du sein, ovaire, endomètre) \n - Antécédents gynécologiques 1er degré : {{question_v13_q_s_gyn_atcd_1_answer}} \n - Antécédents gynécologiques 2ème degré : {{question_v13_q_s_gyn_atcd_2_answer}} {{#question_v13q_s_prev_gyn_osteoporose_frax_answer}} \n - Risque de fractures ostéoporotique à 10 ans (FRAX) : {{diagnostic_diagnosticq3_gyn_osteo_frax}} {{/question_v13q_s_prev_gyn_osteoporose_frax_answer}} \n {{/question_v13_q_s_gyn_atcd_1_answer}} {{#question_v13_q_s_and_atcd_1_answer}}**Santé andrologique**\n - Antécédents cancer de la prostate 1er degré : {{question_v13_q_s_and_atcd_1_answer}} \n - Antécédents cancer de la prostate 2ème degré : {{question_v13_q_s_and_atcd_2_answer}} \n - Score IPPS (International Prostate Score Symptom) évaluant le risque prostatique : {{diagnostic_diagnostic_IPPS}} \n {{/question_v13_q_s_and_atcd_1_answer}} \n\n **Santé cardio-vasculaire**(HTA, infarctus du myocarde, AVC, artérite, embolie pulmonaire, phlébites, cardiomyopathie) \n - Antécédents cardio-vasculaire 1er degré : {{question_v13q_s_cv_atcd_1_answer}} \n - Antécédents cardio-vasculaire 2ème degré : {{question_v13q_s_cv_atcd_2_answer}} \n\n **Santé de l’appareil pulmonaire**\n - Antécédents d’asthme 1er degré : {{question_v13q_s_pn_atcd_1_answer}} \n - Antécédents d’asthme 2ème degré : {{question_v13q_s_pn_atcd_2_answer}} \n - Dépistage BPCO : {{diagnostic_diagnostic_BPCO}} \n - Tabac : {{question_v13calc_PA_answer}} \n**Santé urologique**(cancer du rein, calculs rénaux) \n - Antécédents de maladies urologiques et néphrologiques 1er degré : {{question_v13q_s_un_atcd_1_answer}} \n - Antécédents de maladies urologiques et néphrologiques 2ème degré : {{question_v13q_s_un_atcd_2_answer}} \n**Santé neurologique**(Parkinson , maladie neurodégénéraJve, migraines, cancer du cerveau) \n - Antécédents de maladies neurologiques 1er degré : {{question_v13q_s_n_atcd_1_answer}} \n - Antécédents de maladies neurologiques 2ème degré : {{question_v13q_s_n_atcd_2_answer}} \n - Risque de troubles cognitifs : {{diagnostic_diagnostic_qpc}} \n\n**Santé rhumatologique**(PR,SA, rhumaJsme psoriasique, pseudo-arthrite rhizomélique) \n - Antécédents de maladies rhumatologiques 1er degré : {{question_v13q_s_rms_atcd_1_answer}} \n - Antécédents de maladies rhumatologiques 2ème degré : {{question_v13q_s_rms_atcd_2_answer}} \n {{#question_v13q_s_prev_and_osteoporose_frax_answer}} - Risque de survenue de fractures ostéoporotique à 10 ans : {{diagnostic_diagnosticq3_and_osteo_frax}} {{/question_v13q_s_prev_and_osteoporose_frax_answer}}"
       }
     },
@@ -110,89 +110,5 @@
       
     ],
     "reportingTrees": [
-      {
-        "category": "HEALTH",
-        "reportingNode": {
-          "type": "SCORE",
-          "hideNodeIfEmpty": true,
-          "hideForPatient": false,
-          "tagOID": "tag_benzo",
-          "displayScore": false,
-          "ranges": [
-            {
-              "min": 0,
-              "max": 0,
-              "text": "BENZO",
-              "color": "109900"
-            },
-            {
-              "min": 1,
-              "max": 1,
-              "text": "BENZO",
-              "color": "FFFF00"
-            },
-            {
-              "min": 2,
-              "max": 2,
-              "text": "BENZO",
-              "color": "FFB200"
-            },
-            {
-              "min": 3,
-              "max": 3,
-              "text": "BENZO",
-              "color": "FF0000"
-            },
-            {
-              "min": 4,
-              "max": 100,
-              "text": "BENZO",
-              "color": "990000"
-            }
-          ],
-          "diagnosticOID": null,
-          "diagnosticTitle": null,
-          "diagnostics": null,
-          "children": [
-            {
-              "type": "SCORE",
-              "hideNodeIfEmpty": true,
-              "hideForPatient": false,
-              "tagOID": "tag_IPPS",
-              "displayScore": false,
-              "ranges": [
-                {
-                  "min": 0,
-                  "max": 3,
-                  "text": "IPPS",
-                  "color": "109900"
-                },
-                {
-                  "min": 4,
-                  "max": 7,
-                  "text": "IPPS",
-                  "color": "FFFF00"
-                },
-                {
-                  "min": 8,
-                  "max": 19,
-                  "text": "IPPS",
-                  "color": "FFB200"
-                },
-                {
-                  "min": 20,
-                  "max": 35,
-                  "text": "IPPS",
-                  "color": "FF0000"
-                }
-              ],
-              "diagnosticOID": null,
-              "diagnosticTitle": null,
-              "diagnostics": null,
-              "children": []
-            }
-          ]
-        }
-      }
     ]
   }
