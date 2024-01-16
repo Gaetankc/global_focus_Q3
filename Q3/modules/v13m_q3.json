@@ -788,6 +788,96 @@
             "tagOID": "tag_findrisk",
             "conditions": "v13calc_Findrisk_2_8 == 12",
             "value": 12
+          },
+          {
+            "tagOID": "tag_findrisk",
+            "conditions": "v13calc_Findrisk_2_8 == 13",
+            "value": 13
+          },
+          {
+            "tagOID": "tag_findrisk",
+            "conditions": "v13calc_Findrisk_2_8 == 14",
+            "value": 14
+          },
+          {
+            "tagOID": "tag_findrisk",
+            "conditions": "v13calc_Findrisk_2_8 == 15",
+            "value": 15
+          },
+          {
+            "tagOID": "tag_findrisk",
+            "conditions": "v13calc_Findrisk_2_8 == 16",
+            "value": 16
+          },
+          {
+            "tagOID": "tag_findrisk",
+            "conditions": "v13calc_Findrisk_2_8 == 17",
+            "value": 17
+          },
+          {
+            "tagOID": "tag_findrisk",
+            "conditions": "v13calc_Findrisk_2_8 == 18",
+            "value": 18
+          },
+          {
+            "tagOID": "tag_findrisk",
+            "conditions": "v13calc_Findrisk_2_8 == 19",
+            "value": 19
+          },
+          {
+            "tagOID": "tag_findrisk",
+            "conditions": "v13calc_Findrisk_2_8 == 20",
+            "value": 20
+          },
+          {
+            "tagOID": "tag_findrisk",
+            "conditions": "v13calc_Findrisk_2_8 == 21",
+            "value": 21
+          },
+          {
+            "tagOID": "tag_findrisk",
+            "conditions": "v13calc_Findrisk_2_8 == 22",
+            "value": 22
+          },
+          {
+            "tagOID": "tag_findrisk",
+            "conditions": "v13calc_Findrisk_2_8 == 23",
+            "value": 23
+          },
+          {
+            "tagOID": "tag_findrisk",
+            "conditions": "v13calc_Findrisk_2_8 == 24",
+            "value": 24
+          },
+          {
+            "tagOID": "tag_findrisk",
+            "conditions": "v13calc_Findrisk_2_8 == 25",
+            "value": 25
+          },
+          {
+            "tagOID": "tag_findrisk",
+            "conditions": "v13calc_Findrisk_2_8 == 26",
+            "value": 26
+          },
+          {
+            "tagOID": "tag_findrisk",
+            "conditions": "v13calc_Findrisk_2_8 == 27",
+            "value": 27
+          },
+          {
+            "tagOID": "tag_findrisk",
+            "conditions": "v13calc_Findrisk_2_8 == 28",
+            "value": 28
+          },
+          {
+            "tagOID": "tag_findrisk",
+            "conditions": "v13calc_Findrisk_2_8 == 29",
+            "value": 29
+          },
+          {
+            "tagOID": "tag_findrisk",
+            "conditions": "v13calc_Findrisk_2_8 == 30",
+            "value": 30
           }
         ]
       }

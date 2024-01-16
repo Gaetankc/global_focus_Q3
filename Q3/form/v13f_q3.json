@@ -42,7 +42,7 @@
       },
       {
         "conditions": {
-          "Situation de vulnerabilite sociale": "Tag_EPICE > 3",
+          "Situation de vulnérabilité sociale": "Tag_EPICE > 3",
           "Situation stable": "Tag_EPICE <= 3"
         },
         "oid": "diag_epice"
@@ -58,11 +58,11 @@
       },
       {
         "conditions": {
-          "La necessite d’agir est imminente, car il se peut que vous soyez dejà atteint de diabète. Cela est vrai pour 35% des personnes qui totalisent un score de plus de 20 points. Vous pouvez faire tester votre glycemie au bout du doigt en guise d’information complementaire. Ce test ne remplace cependant pas un diagnostic complet au laboratoire servant à exclure un diabète dejà installe. Une visite medicale est indispensable dans les meilleurs delais": "tag_FRINDRISC > 20",
-          "Si vous tombez dans cette categorie de risque, il ne faudra pas tarder à mettre en œuvre les moyens de prevention. Vous pouvez avoir recours vous-mêmes aux informations et recommandations pratiques d’experts pour changer vos habitudes de vie. Si vous n’y parvenez pas tout seul, ayez recours à une aide professionnelle.": "tag_FRINDRISC >= 12 && tag_FRINDRISC <= 14",
-          "Une certaine prudence sera de mise, même si votre risque de devenir diabetique n’est que legèrement accru. Si vous voulez être sûr(e), veuillez observer les règles suivantes : • En cas d’obesite, essayez de perdre 7% de votre poids • Pratiquez une activite physique avec legère transpiration pendant 30 minutes au moins 5 jours par semaine • Limitez la consommation de graisses à 35% des calories totales de votre alimentation. • Les graisses saturees (graisses animales) ne depasseront pas 10% des calories de votre alimentation • Consommez par jour 30 grammes de fibres alimentaires (contenues dans les produits à base de cereales complètes, les legumes et les fruits)": "tag_FRINDRISC >= 7 && tag_FRINDRISC <= 11",
-          "Vous n’avez pas ou peu de risque de devenir diabetique. Une prevention particulière n’est pas necessaire. Neanmoins, le recours à une alimentation saine et une activite physique regulière ne pourra pas vous nuire.": "tag_FRINDRISC < 7",
-          "Vous êtes reellement en danger. Un tiers des patients presentant ce grade de risque deviennent diabetiques au courant des 10 prochaines annees. Ne sous-estimez pas cette situation. Cela pourrait avoir des suites fâcheuses. Ayez recours à de l’aide professionnelle et parlez-en à votre medecin.": "tag_FRINDRISC >= 15 && tag_FRINDRISC <= 20"
+          "La necessite d’agir est imminente, car il se peut que vous soyez dejà atteint de diabète. Cela est vrai pour 35% des personnes qui totalisent un score de plus de 20 points. Vous pouvez faire tester votre glycemie au bout du doigt en guise d’information complementaire. Ce test ne remplace cependant pas un diagnostic complet au laboratoire servant à exclure un diabète dejà installe. Une visite medicale est indispensable dans les meilleurs delais": "tag_findrisk > 20",
+          "Si vous tombez dans cette categorie de risque, il ne faudra pas tarder à mettre en œuvre les moyens de prevention. Vous pouvez avoir recours vous-mêmes aux informations et recommandations pratiques d’experts pour changer vos habitudes de vie. Si vous n’y parvenez pas tout seul, ayez recours à une aide professionnelle.": "tag_findrisk >= 12 && tag_findrisk <= 14",
+          "Une certaine prudence sera de mise, même si votre risque de devenir diabetique n’est que legèrement accru. Si vous voulez être sûr(e), veuillez observer les règles suivantes : • En cas d’obesite, essayez de perdre 7% de votre poids • Pratiquez une activite physique avec legère transpiration pendant 30 minutes au moins 5 jours par semaine • Limitez la consommation de graisses à 35% des calories totales de votre alimentation. • Les graisses saturees (graisses animales) ne depasseront pas 10% des calories de votre alimentation • Consommez par jour 30 grammes de fibres alimentaires (contenues dans les produits à base de cereales complètes, les legumes et les fruits)": "tag_findrisk >= 7 && tag_findrisk <= 11",
+          "Vous n’avez pas ou peu de risque de devenir diabéJque. Une prévenJon parJculière n’est pas nécessaire. Néanmoins, le recours à une alimentaJon saine et une acJvité physique régulière ne pourra pas vous nuire.": "tag_findrisk < 7",
+          "Vous êtes reellement en danger. Un tiers des patients presentant ce grade de risque deviennent diabetiques au courant des 10 prochaines annees. Ne sous-estimez pas cette situation. Cela pourrait avoir des suites fâcheuses. Ayez recours à de l’aide professionnelle et parlez-en à votre medecin.": "tag_findrisk >= 15 && tag_findrisk <= 20"
         },
         "oid": "diagnostic_findrisc"
       },
