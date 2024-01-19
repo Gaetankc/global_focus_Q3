@@ -2,15 +2,15 @@
   "choices": [
     {
       "code": "0",
-      "text": "Cancer du rein"
+      "text": " Cancer du rein"
     },
     {
       "code": "1",
-      "text": "Coliques néphrétiques (calculs rénaux)"
+      "text": " Coliques néphrétiques (calculs rénaux)"
     },
     {
       "code": "2",
-      "text": "Polykystose rénale (kystes du rein)"
+      "text": " Polykystose rénale (kystes du rein)"
     },
     {
       "code": "3",

@@ -2,11 +2,11 @@
   "choices": [
     {
       "code": "0",
-      "text": "Vacciné : dernier vaccin fait il y a moins d’un an"
+      "text": "Vacciné de temps en temps"
     },
     {
       "code": "1",
-      "text": "Vacciné : dernier vaccin faitilyaplus d’un an"
+      "text": "Vacciné annuellement"
     },
     {
       "code": "2",

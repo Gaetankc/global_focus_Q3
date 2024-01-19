@@ -2,19 +2,19 @@
   "choices": [
     {
       "code": "0",
-      "text": "Polyarthrite rhumatoïde"
+      "text": " Polyarthrite rhumatoïde"
     },
     {
       "code": "1",
-      "text": "Spondylarthrite ankylosante"
+      "text": " Spondylarthrite ankylosante"
     },
     {
       "code": "2",
-      "text": "Rhumatisme psoriasique"
+      "text": " Rhumatisme psoriasique"
     },
     {
       "code": "3",
-      "text": "Pseudo-polyarthrite rhizomélique"
+      "text": " Pseudo-polyarthrite rhizomélique"
     },
     {
       "code": "4",

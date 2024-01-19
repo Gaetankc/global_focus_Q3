@@ -2,19 +2,19 @@
   "choices": [
     {
       "code": "0",
-      "text": "Cancer du cerveau"
+      "text": " Cancer du cerveau"
     },
     {
       "code": "1",
-      "text": "Maladie de Parkinson"
+      "text": " Maladie de Parkinson"
     },
     {
       "code": "2",
-      "text": "Maladie neurodégénérative (maladie d’Alzheimer, maladie à corps de Léwy...)"
+      "text": " Maladie neurodégénérative (maladie d’Alzheimer, maladie à corps de Léwy...)"
     },
     {
       "code": "3",
-      "text": "Migraines"
+      "text": " Migraines"
     },
     {
       "code": "4",

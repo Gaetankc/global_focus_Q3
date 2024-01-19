@@ -2,27 +2,27 @@
   "choices": [
     {
       "code": "0",
-      "text": "Cancer de l’estomac"
+      "text": " Cancer de l’estomac"
     },
     {
       "code": "1",
-      "text": "Cancer du côlon"
+      "text": " Cancer du côlon"
     },
     {
       "code": "2",
-      "text": "Polype du côlon"
+      "text": " Polype du côlon"
     },
     {
       "code": "3",
-      "text": "Cancer du pancréas"
+      "text": " Cancer du pancréas"
     },
     {
       "code": "4",
-      "text": "Maladie de Crohn"
+      "text": " Maladie de Crohn"
     },
     {
       "code": "5",
-      "text": "Recto-colite-hémorragique"
+      "text": " Recto-colite-hémorragique"
     },
     {
       "code": "6",

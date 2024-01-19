@@ -2,27 +2,27 @@
   "choices": [
     {
       "code": "0",
-      "text": "Suivi habituel régulier"
+      "text": " Suivi habituel régulier"
     },
     {
       "code": "1",
-      "text": "Contraception"
+      "text": " Contraception"
     },
     {
       "code": "2",
-      "text": "Projet de grossesse"
+      "text": " Projet de grossesse"
     },
     {
       "code": "3",
-      "text": "Suivi de grossesse"
+      "text": " Suivi de grossesse"
     },
     {
       "code": "4",
-      "text": "Problème médical"
+      "text": " Problème médical"
     },
     {
       "code": "5",
-      "text": "Problème chirurgical"
+      "text": " Problème chirurgical"
     }
   ],
   "oid": "v13q_s_gyn_prevention_consultation_raison",

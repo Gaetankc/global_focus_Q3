@@ -2,35 +2,35 @@
   "choices": [
     {
       "code": "0",
-      "text": "Hypertension artérielle"
+      "text": " Hypertension artérielle"
     },
     {
       "code": "1",
-      "text": "Angine de poitrine"
+      "text": " Angine de poitrine"
     },
     {
       "code": "2",
-      "text": "Infarctus du myocarde"
+      "text": " Infarctus du myocarde"
     },
     {
       "code": "3",
-      "text": "Accident vasculaire cérébral"
+      "text": " Accident vasculaire cérébral"
     },
     {
       "code": "4",
-      "text": "Artérite"
+      "text": " Artérite"
     },
     {
       "code": "5",
-      "text": "Embolie pulmonaire"
+      "text": " Embolie pulmonaire"
     },
     {
       "code": "6",
-      "text": "Phlébite"
+      "text": " Phlébite"
     },
     {
       "code": "7",
-      "text": "Cardiomyopathie"
+      "text": " Cardiomyopathie"
     },
     {
       "code": "8",

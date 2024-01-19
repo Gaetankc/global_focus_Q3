@@ -2,23 +2,23 @@
   "choices": [
     {
       "code": "0",
-      "text": "Trouble anxieux"
+      "text": " Trouble anxieux"
     },
     {
       "code": "1",
-      "text": "Trouble dépressif (majeur ou chronique)"
+      "text": " Trouble dépressif (majeur ou chronique)"
     },
     {
       "code": "2",
-      "text": "Dépression bipolaire"
+      "text": " Dépression bipolaire"
     },
     {
       "code": "3",
-      "text": "Suicide"
+      "text": " Suicide"
     },
     {
       "code": "4",
-      "text": "Trouble psychotique (type schizophrénie)"
+      "text": " Trouble psychotique (type schizophrénie)"
     },
     {
       "code": "5",

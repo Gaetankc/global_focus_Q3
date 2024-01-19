@@ -2,19 +2,19 @@
   "choices": [
     {
       "code": "0",
-      "text": "Cancer du sein"
+      "text": " Cancer du sein"
     },
     {
       "code": "1",
-      "text": "Cancer des ovaires"
+      "text": " Cancer des ovaires"
     },
     {
       "code": "2",
-      "text": "Cancer de l’endomètre"
+      "text": " Cancer de l’endomètre"
     },
     {
       "code": "3",
-      "text": "Aucun",
+      "text": " Aucun",
       "exclusive": true
     },
     {

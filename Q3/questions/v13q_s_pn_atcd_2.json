@@ -2,11 +2,11 @@
   "choices": [
     {
       "code": "0",
-      "text": "Asthme"
+      "text": " Asthme"
     },
     {
       "code": "1",
-      "text": "Cancer broncho-pulmonaire"
+      "text": " Cancer broncho-pulmonaire"
     },
     {
       "code": "2",

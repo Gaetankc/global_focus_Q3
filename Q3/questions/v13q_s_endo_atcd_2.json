@@ -2,27 +2,27 @@
   "choices": [
     {
       "code": "0",
-      "text": "Diabète de type 1"
+      "text": " Diabète de type 1"
     },
     {
       "code": "1",
-      "text": "Diabète de type 2"
+      "text": " Diabète de type 2"
     },
     {
       "code": "2",
-      "text": "Obésité"
+      "text": " Obésité"
     },
     {
       "code": "3",
-      "text": "Hypercholestérolémie"
+      "text": " Hypercholestérolémie"
     },
     {
       "code": "4",
-      "text": "Hypertriglycéridémie"
+      "text": " Hypertriglycéridémie"
     },
     {
       "code": "5",
-      "text": "Excès d’acide urique (goutte)"
+      "text": " Excès d’acide urique (goutte)"
     },
     {
       "code": "6",

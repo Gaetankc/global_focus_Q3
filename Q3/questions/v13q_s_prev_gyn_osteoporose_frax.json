@@ -2,19 +2,19 @@
   "choices": [
     {
       "code": "0",
-      "text": "Vous avez été ménopausée avant l’âge de 40 ans"
+      "text": " Vous avez été ménopausée avant l’âge de 40 ans"
     },
     {
       "code": "1",
-      "text": "Vous avez des antécédents personnels (c’est à dire vous-même) de fracture osseuse survenue sans traumaJsme violent et en dehors de tumeur osseuse"
+      "text": " Vous avez des antécédents personnels (c’est à dire vous-même) de fracture osseuse survenue sans traumatisme violent et en dehors de tumeur osseuse"
     },
     {
       "code": "2",
-      "text": "Un de vos parents a eu une fracture de hanche"
+      "text": " Un de vos parents a eu une fracture de hanche"
     },
     {
       "code": "3",
-      "text": "Vous prenez ou avez pris de la cortisone pendant plus de 3 mois"
+      "text": " Vous prenez ou avez pris de la cortisone pendant plus de 3 mois"
     },
     {
       "code": "4",
