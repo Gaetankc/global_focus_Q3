@@ -191,7 +191,7 @@
       {
         "conditions": {
           "Situation de vulnerabilite sociale": "tag_and_osteoporose_frax == 4",
-          "important (surveillance par densitométrie)": "tag_and_osteoporose_frax != 4"
+          "important (surveillance par densitométrie)": "tag_and_osteoporose_frax < 4"
         },
         "oid": "diagnosticq3_and_osteo_frax"
       },
